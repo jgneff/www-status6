@@ -14,12 +14,12 @@ You can also become a sponsor or make a one-time donation through PayPal:
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick" />
 <input type="hidden" name="hosted_button_id" value="TLPD5EPWLSM5G" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" width="147" height="47" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" width="147" height="47" />
 </form>
 
 With your support, I'll be able to spend more time on the following projects.
 
-### *Volano*{:.sc} Chat Server
+### *Volano™*{:.sc} Chat Server
 
 * Publish the *Volano*{:.sc} chat server under an open-source [GNU GPL][gpl] license.
 
@@ -27,7 +27,7 @@ With your support, I'll be able to spend more time on the following projects.
 
 ### Electronic Ink
 
-* Write articles on how to run Ubuntu on Kobo e-readers and code e-paper apps in Java.
+* Write articles on how to run Ubuntu on Kobo e-readers and code apps for e-paper in Java.
 
 * Write a programming book on electronic ink and publish it under a Creative Commons [BY-SA][bysa] license.
 

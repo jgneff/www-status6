@@ -8,8 +8,8 @@ I'm John Neffenger, an open-source software developer doing business as **Status
 ## Programming
 
 My open-source contributions are listed below, starting with the most recent.
-My largest contribution was porting the JavaFX framework to devices with e-paper displays.
-Before working on that project, I got started by fixing two font bugs that had been bothering me for years.
+My largest project has been to port JavaFX, the Java application framework, to devices with e-paper displays.
+Before submitting that contribution, I learned how the OpenJDK community works by fixing two font bugs that had bothered me for years.
 
 ### JavaFX on E-paper
 
@@ -21,7 +21,7 @@ The documentation was hard to find, buried deep in manuals for embedded programm
 I wanted to use a cross-platform language and framework that would let me test applications on my desktop computer and run them unmodified on the device.
 I wanted a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, yet nothing like that existed.
 
-So I added the support to JavaFX and contributed it to the OpenJDK project, with 1,831 lines of code in all (1,634 in Java and 197 in C).
+So I added the support to JavaFX with 1,831 lines of code in all (1,634 in Java and 197 in C).
 
 **Jan 2019:**
 Implemented the JavaFX platform for Linux systems with e-paper displays, such as the Amazon Kindle and Rakuten Kobo e-readers.
@@ -38,35 +38,34 @@ I'm hopeful this feature will be included in JavaFX 15.
 [![][jdkfonts]][JDK-8212071]
 For 10 years, every time I downloaded a new release of Java, the first thing I did was check whether the font bug had been fixed.
 And for 10 years, the bug was still there: color fringes in the fonts so severe that it was impossible to use.
-I was ready to abandon Java altogether if the problem wasn't going to be fixed.
+I was ready to abandon the platform altogether if the problem wasn't going to be fixed.
 It was as if the developers of Java couldn't even see the bug.
 
 **Oct 2018:**
-As it turns out, that was precisely the problem: the developers of Java couldn't even see the bug!
+In fact, that was precisely the problem: the developers of Java couldn't even see the bug!
 The error didn't occur on their systems running Oracle Linux.
-I solved the problem by creating the GitHub repository "[OpenJDK FreeType Font Fix][JDK-8212071]," which explained the history of the bug and provided a two-line fix.
+I solved the problem by creating the GitHub repository "[OpenJDK FreeType Font Fix][JDK-8212071]," explaining the long history of the bug and providing a two-line fix.
 My fix is available in Java 12 or later and has been back-ported to Java versions 8 and 11.
 
 ### JavaFX Font Fix
 
 [![][jfxfonts]][JDK-8188810]
-Before tackling the Java font bug, I started first with the same bug in JavaFX.
-By 2017 there were at least two bug reports already describing the problem, but they had both been closed as "Not an Issue."
-Reporting bugs about fonts can be tricky!
-With so many variations, from anti-aliasing and hinting to subpixel rendering and filters, everyone's got an opinion.
+Before tackling the Java font bug, I started by looking into the same problem in JavaFX, but reporting bugs about fonts is tricky!
+With so many variations, from anti-aliasing and hinting to subpixel rendering and filtering, everyone's got an opinion.
 The challenge is to convince developers that what you're describing is really a bug and not just a preference.
-Worse yet, JavaFX, unlike Windows, renders its fonts without hinting, so the developers were used to receiving bug reports from Windows users complaining about the difference.
-By 2018 the bug had persisted for five years, so I knew my attempt would require some compelling evidence---and probably a fix, too.
+By 2017 there were already two bug reports explaining the problem, but they both were closed as "Not an Issue."
+Worse yet, JavaFX, unlike Windows, renders its fonts without hinting, so the developers were used to receiving bug reports from users complaining about the difference.
+By 2018 the bug had persisted for five years, so to be successful, yet another report would require some compelling evidence---and probably a fix, too.
 
 **Sep 2018:**
-I provided both in my GitHub issue, "[Reduce color fringes in FreeType subpixel rendering][JDK-8188810]," and my fix was merged into JavaFX within two days.
-It's available in JavaFX 12 or later.
-Because of a quirk in how this bug occurred, those working on JavaFX also couldn't see the problem on their development workstations.
+I provided both in my GitHub issue, "[Reduce color fringes in FreeType subpixel rendering][JDK-8188810]."
+My fix was merged into JavaFX within two days and is available in JavaFX 12 or later.
+Just like the Java font bug, because of a quirk in how this problem occurred, the developers of JavaFX couldn't even see the bug either!
 
 ## Typography
 
 I took on these projects to find out whether I could automate the production of well-formatted books in plain text, HTML, EPUB, Kindle MOBI, and several PDF paper sizes, all from a single source written in LaTeX.
-The results were even better than I expected, thanks to the great open-source tools provided by LaTeX, HeVeA, ImageMagick, Potrace, and Inkscape.
+The results were even better than I had expected, thanks to the great open-source tools in LaTeX, HeVeA, ImageMagick, Potrace, and Inkscape.
 
 ### *Wild & Woolly*
 

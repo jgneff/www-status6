@@ -9,9 +9,12 @@ description: John Neffenger is a software developer doing business as Status Six
 ![][jgneff]
 I'm a self-employed programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
+
+**Trivia:**
 I have run my own Web and e-mail servers on the Internet since 1996.
-I switched my servers to Linux in 2000 and my desktop workstation to Linux in 2006.
+I switched my server to Linux in 2000 and my desktop to Linux in 2006.
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*
+The path I took in learning human languages was: *English → French → Italian → French.* (I still struggle with French.)
 
 ## Experience
 
