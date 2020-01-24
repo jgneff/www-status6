@@ -21,7 +21,8 @@ The documentation was hard to find, buried deep in manuals for embedded programm
 I wanted to use a cross-platform language and framework that would let me test applications on my desktop computer and run them unmodified on the device.
 I wanted a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, yet nothing like that existed.
 
-So I added the support to JavaFX with 1,831 lines of code in all (1,634 in Java and 197 in C).
+So I added the support to JavaFX and contributed the code in two parts, listed below.
+My contribution was a total of 1,831 lines of code: 1,634 in Java and 197 in C.
 
 **Jan 2019:**
 Implemented the JavaFX platform for Linux systems with e-paper displays, such as the Amazon Kindle and Rakuten Kobo e-readers.
@@ -50,12 +51,14 @@ My fix is available in Java 12 or later and has been back-ported to Java version
 ### JavaFX Font Fix
 
 [![][jfxfonts]][JDK-8188810]
-Before tackling the Java font bug, I started by looking into the same problem in JavaFX, but reporting bugs about fonts is tricky!
+Before tackling the Java font bug, I started by looking into the same problem in JavaFX.
+Reporting bugs about fonts is tricky!
 With so many variations, from anti-aliasing and hinting to subpixel rendering and filtering, everyone's got an opinion.
 The challenge is to convince developers that what you're describing is really a bug and not just a preference.
-By 2017 there were already two bug reports explaining the problem, but they both were closed as "Not an Issue."
-Worse yet, JavaFX, unlike Windows, renders its fonts without hinting, so the developers were used to receiving bug reports from users complaining about the difference.
-By 2018 the bug had persisted for five years, so to be successful, yet another report would require some compelling evidence---and probably a fix, too.
+By 2017 there were already two bug reports explaining the problem, but they were both closed as "Not an Issue."
+Worse yet, JavaFX, unlike Windows, renders its fonts without hinting, so the developers were used to receiving reports from users complaining about the difference.
+By 2018 the bug had persisted for five years.
+If yet another report was to be successful this time, it would have to include some compelling evidence---and probably a fix, too.
 
 **Sep 2018:**
 I provided both in my GitHub issue, "[Reduce color fringes in FreeType subpixel rendering][JDK-8188810]."
