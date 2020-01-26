@@ -10,15 +10,15 @@ description: John Neffenger is a software developer doing business as Status Six
 I'm a self-employed programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
 
-**Trivia:**
+**Linux:**
 I have run my own Web and e-mail servers on the Internet since 1996.
 I switched my server to Linux in 2000 and my desktop to Linux in 2006.
+In 2005 I got Ubuntu Warty Warthog onto primetime TV when a friend asked me to write 30 seconds of "[geek speek][clip]" for his episode of *Veronica Mars*.
+
+**Languages:**
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*
 The path I took in learning human languages was: *English → French → Italian → French.*
 (I still struggle with French.)
-
-**Claim to Fame:**
-I got Ubuntu Warty Warthog onto primetime TV way back in 2005 when a friend asked me to write some "[geek speek][clip]" for his episode of *Veronica Mars*.
 
 ## Experience
 
@@ -48,7 +48,7 @@ Managing member of Volano LLC in the states of California and Washington.
 Systems programmer implementing communication protocols and application frameworks for personal computers, workstations, minicomputers, and mainframes.
 Contributor to the IBM Series/1 Event Driven Executive Communications Facility, the IBM Open Systems Interconnection (OSI)/Communications Subsystem, and the Taligent CommonPoint Application System.
 
-[clip]: https://youtu.be/GS9wdD-9EYU "Ubuntu vs OSX in Veronica Mars S01E18"
+[clip]: https://youtu.be/GS9wdD-9EYU "&ldquo;Weapons of Class Destruction&rdquo; by Jed Seidel (Season 1, Episode 18)"
 
 [jgneff]: images/jgneff.jpg "Picture of John Neffenger"
 {:.right width="156" height="156"}
