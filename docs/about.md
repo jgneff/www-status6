@@ -49,7 +49,7 @@ Managing member of Volano LLC in the states of California and Washington.
 Systems programmer implementing communication protocols and application frameworks for personal computers, workstations, minicomputers, and mainframes.
 Contributor to the IBM Series/1 Event Driven Executive Communications Facility, the IBM Open Systems Interconnection (OSI)/Communications Subsystem, and the Taligent CommonPoint Application System.
 
-[clip]: https://youtu.be/GS9wdD-9EYU "&ldquo;Weapons of Class Destruction&rdquo; by Jed Seidel (Season 1, Episode 18)"
+[clip]: https://youtu.be/GS9wdD-9EYU "&quot;Weapons of Class Destruction&quot; by Jed Seidel (Season 1, Episode 18)"
 
 [jgneff]: images/jgneff.jpg "Picture of John Neffenger"
 {:.right width="156" height="156"}

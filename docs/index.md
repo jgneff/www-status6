@@ -91,17 +91,17 @@ Click the *Free sample* button on the Google Play page to view a sample of the w
 [lineographs]: http://s2014.siggraph.org/attendees/art-gallery/events/lineographs.html "Lineographs at SIGGRAPH 2014"
 [dancer]: https://www.farbrook.net/lineographs/ "Dancer (with Micaela Gardner) by Joseph Farbrook"
 
-[openjdk-jfx-339]: https://github.com/javafxports/openjdk-jfx/issues/339 "Issue #339, &ldquo;8217605: Add support for e-paper displays&rdquo;"
-[openjdk-jfx-369]: https://github.com/javafxports/openjdk-jfx/pull/369 "Pull request #369, &ldquo;8217605: Add support for e-paper displays&rdquo;"
-[openjdk-jfx-521]: https://github.com/javafxports/openjdk-jfx/issues/521 "Issue #521, &ldquo;8227425: Add support for e-paper displays on i.MX6 devices&rdquo;"
-[jfx-60]: https://github.com/openjdk/jfx/pull/60 "Pull request #60, &ldquo;8227425: Add support for e-paper displays on i.MX6 devices&rdquo;"
+[openjdk-jfx-339]: https://github.com/javafxports/openjdk-jfx/issues/339 "Issue #339, &quot;8217605: Add support for e-paper displays&quot;"
+[openjdk-jfx-369]: https://github.com/javafxports/openjdk-jfx/pull/369 "Pull request #369, &quot;8217605: Add support for e-paper displays&quot;"
+[openjdk-jfx-521]: https://github.com/javafxports/openjdk-jfx/issues/521 "Issue #521, &quot;8227425: Add support for e-paper displays on i.MX6 devices&quot;"
+[jfx-60]: https://github.com/openjdk/jfx/pull/60 "Pull request #60, &quot;8227425: Add support for e-paper displays on i.MX6 devices&quot;"
 
 [openjdk-freetype]: https://github.com/jgneff/openjdk-freetype "OpenJDK FreeType Font Fix"
-[openjdk-jfx-229]: https://github.com/javafxports/openjdk-jfx/issues/229 "Issue #229, &ldquo;8188810: Reduce color fringes in FreeType subpixel rendering&rdquo;"
-[openjdk-jfx-235]: https://github.com/javafxports/openjdk-jfx/pull/235 "Pull request #235, &ldquo;8188810: Fonts are blurry on Ubuntu 16.04 and Debian 9&rdquo;"
+[openjdk-jfx-229]: https://github.com/javafxports/openjdk-jfx/issues/229 "Issue #229, &quot;8188810: Reduce color fringes in FreeType subpixel rendering&quot;"
+[openjdk-jfx-235]: https://github.com/javafxports/openjdk-jfx/pull/235 "Pull request #235, &quot;8188810: Fonts are blurry on Ubuntu 16.04 and Debian 9&quot;"
 
-[play-woolly]: https://play.google.com/store/books/details/Alfred_DePew_Wild_Woolly?id=8c3_AAAAQBAJ "&ldquo;Wild &amp; Woolly&rdquo; on Google Play"
-[play-melancholy]: https://play.google.com/store/books/details/Alfred_DePew_The_Melancholy_of_Departure?id=jc3_AAAAQBAJ "&ldquo;The Melancholy of Departure&rdquo; on Google Play"
+[play-woolly]: https://play.google.com/store/books/details/Alfred_DePew_Wild_Woolly?id=8c3_AAAAQBAJ "&quot;Wild &amp; Woolly&quot; on Google Play"
+[play-melancholy]: https://play.google.com/store/books/details/Alfred_DePew_The_Melancholy_of_Departure?id=jc3_AAAAQBAJ "&quot;The Melancholy of Departure&quot; on Google Play"
 
 [doll]: images/mechanical-doll.png "Screenshot of JavaFX animation on e-paper"
 {:.right width="160" height="160"}
@@ -109,7 +109,7 @@ Click the *Free sample* button on the Google Play page to view a sample of the w
 {:.right width="160" height="80"}
 [jfxfonts]: images/jfxfonts.png "Screenshots of JavaFX font fix (before and after)"
 {:.right width="160" height="80"}
-[woolly]: images/wild-and-woolly.png "Thumbnail of &ldquo;Wild &amp; Woolly&rdquo; book cover"
+[woolly]: images/wild-and-woolly.png "Thumbnail of &quot;Wild &amp; Woolly&quot; book cover"
 {:.left width="80" height="128"}
-[melancholy]: images/melancholy-of-departure.png "Thumbnail of &ldquo;The Melancholy of Departure&rdquo; book cover"
+[melancholy]: images/melancholy-of-departure.png "Thumbnail of &quot;The Melancholy of Departure&quot; book cover"
 {:.left width="80" height="113"}
