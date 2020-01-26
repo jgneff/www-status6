@@ -1,2 +1,7 @@
 # Jekyll
 /docs/_site/
+
+# Logos
+logo/*.png
+logo/*.svg
+logo/tmp/
