@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About John Neffenger
-description: John Neffenger is a software developer doing business as Status Six Communications in Vancouver BC.
+title: About Me
+description: John Neffenger is an independent software developer doing business as Status Six Communications in Vancouver BC.
 ---
 
 ## About
@@ -9,11 +9,12 @@ description: John Neffenger is a software developer doing business as Status Six
 ![][jgneff]
 I'm a self-employed programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
+*Status Six Communications* is my sole proprietorship and fictitious business name.
 
 **Linux:**
-I have run my own Web and e-mail servers on the Internet since 1996.
+I have been running my own Web and e-mail servers on the Internet since 1996.
 I switched my server to Linux in 2000 and my desktop to Linux in 2006.
-In 2005 I got Ubuntu Warty Warthog onto primetime TV when a friend asked me to write 30 seconds of "[geek speek][clip]" for his episode of *Veronica Mars*.
+In 2005 I got Ubuntu Warty Warthog onto primetime TV when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
 
 **Languages:**
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*

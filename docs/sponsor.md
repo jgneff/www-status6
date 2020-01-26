@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Sponsor John Neffenger
-description: Sponsor John Neffenger to work full time on open-source projects.
+title: Sponsor Me
+description: Sponsor John Neffenger to design, build, and maintain open-source software.
 ---
 
 ## **♥**{:.heart} Sponsor
@@ -9,7 +9,7 @@ description: Sponsor John Neffenger to work full time on open-source projects.
 You'll soon be able to sponsor me through [GitHub Sponsors][sponsors].
 GitHub is covering all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
 
-You can also become a sponsor or make a one-time donation through PayPal:
+You can also sponsor me and make one-time donations through PayPal:
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick" />

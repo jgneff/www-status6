@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact John Neffenger
+title: Contact Me
 description: Contact information for John Neffenger in Vancouver BC.
 ---
 

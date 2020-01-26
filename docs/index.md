@@ -1,9 +1,12 @@
 ---
 layout: default
-description: Status Six Communications is the sole proprietorship of John Neffenger, a software developer in Vancouver BC.
+title: Status Six
+description: Status Six Communications is the sole proprietorship of John Neffenger, an independent software developer in Vancouver BC.
 ---
 
-I'm John Neffenger, an open-source software developer doing business as **Status Six Communications** in Vancouver, British Columbia, Canada.
+## Welcome
+
+I'm John Neffenger, an independent software developer doing business as *Status Six Communications* in Vancouver, British Columbia, Canada.
 
 ## Programming
 
