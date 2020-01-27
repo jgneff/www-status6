@@ -10,7 +10,6 @@ LATEXMK = latexmk
 MUDRAW  = mudraw
 OPTIPNG = optipng
 PDF2SVG = pdf2svg
-CONVERT = convert
 RSYNC   = rsync
 
 # Command options
@@ -41,9 +40,11 @@ tmp/%.png: tmp/%.pdf
 # Explicit rules
 # ======================================================================
 
-.PHONY: all clean
+.PHONY: all pub diff clean
 
-all: tmp/published
+all: $(logos)
+
+pub: tmp/published
 
 tmp/published: $(logos)
 	$(RSYNC) $(RSYNC_FLAGS) $^ $(DEST)/
@@ -52,9 +53,8 @@ tmp/published: $(logos)
 tmp:
 	mkdir -p $@
 
-icon.png: tmp/icon.png
-	$(CONVERT) $< -background none -gravity center -extent 192x192 $@
-	$(OPTIPNG) $@
+diff: $(logos)
+	diff --from-file=$(DEST)/ $^ || true
 
 clean:
 	rm -f *.png *.svg tmp/*
