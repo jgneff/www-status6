@@ -12,11 +12,13 @@ I write software for the Java platform, design books with the LaTeX typesetting 
 *Status Six Communications* is my sole proprietorship and fictitious business name.
 
 **Linux:**
-I have been running my own Web and e-mail servers on the Internet since 1996.
+I'm a longtime fan of Linux and Ubuntu.
+I have been running my own Web and e-mail server on the Internet since 1996.
 I switched my server to Linux in 2000 and my desktop to Linux in 2006.
-In 2005 I got Ubuntu Warty Warthog onto primetime TV when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
+I even got Ubuntu onto primetime TV way back in 2005 when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
 
 **Languages:**
+I'm also a fan of Java once again.
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*
 The path I took in learning human languages was: *English → French → Italian → French.*
 (I still struggle with French.)
@@ -39,7 +41,7 @@ Contributor to the JavaFX graphics module, the Java 2D client library, Apache Ne
 
 *1996--2013 • Sole Proprietor • San Francisco CA • Vancouver BC*
 
-Author of the *Volano™*{:.sc} chat server, a proprietary software package licensed to customers in 50 countries.
+Author of the *Volano™*{:.sc} chat server, a proprietary software package written in Java and licensed to customers in 50 countries.
 Managing member of Volano LLC in the states of California and Washington.
 
 ### IBM Corporation
