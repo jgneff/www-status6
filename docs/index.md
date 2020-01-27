@@ -27,12 +27,12 @@ I wanted a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, y
 So I added the support to JavaFX and contributed the code in two parts, listed below.
 My contribution was a total of 1,831 lines of code: 1,634 in Java and 197 in C.
 
-**Jan 2019:**
+**Feb 2019:**
 Implemented the JavaFX platform for Linux systems with e-paper displays, such as the Amazon Kindle and Rakuten Kobo e-readers.
 See my [GitHub issue][openjdk-jfx-339] for details on the motivation and design of the new platform.
 [This feature][openjdk-jfx-369] is available since JavaFX 13.
 
-**Jul 2019:**
+**Dec 2019:**
 Added support for additional device models.
 See my [GitHub issue][openjdk-jfx-521] for details.
 I'm hopeful [this feature][jfx-60] will be included in JavaFX 15.
