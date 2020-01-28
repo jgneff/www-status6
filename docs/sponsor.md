@@ -4,7 +4,7 @@ title: Sponsor Me
 description: Sponsor John Neffenger to design, build, and maintain open-source software.
 ---
 
-## **♥**{:.heart} Sponsor
+## **♥**{:.heart} Sponsor Me
 
 You'll soon be able to sponsor me through [GitHub Sponsors][sponsors].
 GitHub is covering all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.

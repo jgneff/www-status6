@@ -4,7 +4,7 @@ title: About Me
 description: John Neffenger is an independent software developer doing business as Status Six Communications in Vancouver BC.
 ---
 
-## About
+## About Me
 
 ![][jgneff]
 I'm a self-employed programmer, typographer, and system administrator.
@@ -53,5 +53,5 @@ Contributor to the IBM Series/1 Event Driven Executive Communications Facility, 
 
 [clip]: https://youtu.be/GS9wdD-9EYU "&quot;Weapons of Class Destruction&quot; by Jed Seidel (Season 1, Episode 18)"
 
-[jgneff]: images/jgneff.jpg "Picture of John Neffenger"
+[jgneff]: images/jgneff.jpg "John Neffenger"
 {:.right width="156" height="156"}

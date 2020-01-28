@@ -4,7 +4,7 @@ title: Contact Me
 description: Contact information for John Neffenger in Vancouver BC.
 ---
 
-## Contact
+## Contact Me
 
 ### E-mail
 
