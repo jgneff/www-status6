@@ -9,28 +9,28 @@
 <link rel="stylesheet" href="styles/light.min.css">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <style>
-/* Overrides Water.css */
+/* Water.css overrides */
 :root {--text-muted: #767676;} /* Lighthouse audit */
 pre {font-size: unset;} /* Microsoft EdgeHTML 18 */
 code, samp, time, var, kbd {font-family: Consolas, "DejaVu Sans Mono", "Liberation Mono", Menlo, monospace; font-size: 0.85em;}
 footer {padding-top: 0;}
 table {width: auto;}
-/* Adds type selectors */
+/* Water.css additions */
 header, nav {text-align: center;}
 nav > ul {padding: 0; list-style-type: none;}
 nav > ul > li {display: inline; padding-left: 1em; white-space: nowrap; color: var(--links);}
 nav > ul > li:first-child {padding-left: 0}
-h1, h2, h3, h4, h5, h6, footer {clear: both;}
-/* Adds ID and class selectors */
+h1, h2, h3, footer {clear: both;}
+/* Class and ID selectors */
 #sponsor:hover > span {color: crimson;}
 .heart {color: crimson;}
-.right {float: right; padding: 0 0 0 1em;}
+.right {float: right; padding: 0 0 1em 1em;}
 .left {float: left; padding: 0 1em 1em 0;}
 .sc {font-variant: small-caps;}
-/* Adds dark theme */
+/* Dark theme */
 @media (prefers-color-scheme: dark) {
+  h1 > img {filter: invert(1);}
   pre.highlight > code > span {color: #00417a; filter: invert(1);}
-  header img {filter: invert(1);}
 }
 </style>
 <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
