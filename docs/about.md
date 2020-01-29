@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About Me
+title: About John Neffenger
 description: John Neffenger is an independent software developer doing business as Status Six Communications in Vancouver BC.
 ---
 
-## About Me
+## About
 
 ![][jgneff]
 I'm a self-employed programmer, typographer, and system administrator.

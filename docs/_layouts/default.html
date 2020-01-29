@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 <meta name="description" content="{{ page.description }}">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="images/icon.png">
 <link rel="stylesheet" href="styles/light.min.css">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
@@ -38,7 +38,7 @@ h1, h2, h3, footer {clear: both;}
 <body>
 <header>
 <a href="index.html" title="Home Page">
-<h1><img src="images/head.svg" width="619" height="96" alt="Status Six Communications"></h1>
+<h1><img src="images/head.svg" width="619" height="96" alt="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"></h1>
 </a>
 </header>
 <nav>

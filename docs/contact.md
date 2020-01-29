@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Contact Me
-description: Contact information for John Neffenger in Vancouver BC.
+title: Contact John Neffenger
+description: Contact information for John Neffenger, doing business as Status Six Communications in Vancouver BC.
 ---
 
-## Contact Me
+## Contact
 
 ### E-mail
 
