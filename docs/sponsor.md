@@ -4,7 +4,7 @@ title: Sponsor John Neffenger
 description: With your support, I will have more time to design, build, and maintain my open-source software projects.
 ---
 
-## **♥**{:.heart} Sponsor
+## **♥**{:.heart} Sponsor Me
 
 You'll soon be able to sponsor me through [GitHub Sponsors][sponsors].
 GitHub is covering all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
