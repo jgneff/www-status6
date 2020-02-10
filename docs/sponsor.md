@@ -8,32 +8,29 @@ description: Sponsor John Neffenger to design, build, and maintain open-source s
 
 You'll soon be able to sponsor me through [GitHub Sponsors][sponsors].
 GitHub is covering all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
-
-You can also sponsor me and make one-time donations through PayPal:
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="TLPD5EPWLSM5G" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" width="147" height="47" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-</form>
+GitHub expects to review my application by the week of February 17, 2020.
 
 With your support, I'll be able to spend more time on the following projects.
 
 ### *Volano™*{:.sc} Chat Server
 
-* Publish the *Volano*{:.sc} chat server under an open-source [GNU GPL][gpl] license.
+* Lead the development of the [open-source *Volano*{:.sc}][volano] chat server.
 
-* Refactor the *Volano*{:.sc} chat server for Java 13 and write a new client for the modern Web.
+* Switch the build automation from Apache Ant and GNU Make to [Gradle][gradle].
+
+* Refactor the *Volano*{:.sc} chat server for the latest [Java Development Kit][openjdk] (JDK).
+
+* Develop a new client for the [modern Web][websockets] to replace the existing Java applets.
 
 ### Electronic Ink
 
-* Write articles on how to run Ubuntu on Kobo e-readers and code apps for e-paper in Java.
+* Post articles about running [Ubuntu Base][ubuntu] on Kobo e-readers and writing cross-platform apps for e-paper.
 
 * Write a programming book on electronic ink and publish it under a Creative Commons [BY-SA][bysa] license.
 
-* Create beautiful open-source themes in monochrome and grayscale for JavaFX on e-paper.
+* Create beautiful [open-source themes][skin] in monochrome and grayscale for JavaFX on e-paper.
 
-* Write useful open-source apps for e-paper and publish them in the [Snap Store][snap].
+* Develop useful open-source apps for e-paper and publish them in the [Snap Store][snap].
 
 * Port the [Java Swing][swing] framework to devices with e-paper displays.
 
@@ -41,15 +38,21 @@ With your support, I'll be able to spend more time on the following projects.
 
 ### Bug Fixes
 
-* Fix seven bugs I found in JavaFX while adding support for e-paper displays.
+* Fix the [bugs I found][jfxpatch] in JavaFX while adding support for e-paper displays.
 
-* Solve [seven problems][netbeans] I found in NetBeans while trying to attach the JavaFX Javadoc and sources.
+* Solve [seven problems][netbeans] I found in NetBeans while trying to attach the JavaFX Javadoc and Sources.
 
 [sponsors]: https://github.com/sponsors
-[gpl]: https://choosealicense.com/licenses/gpl-3.0/
+[volano]: https://github.com/jgneff/volano
+[gradle]: https://docs.gradle.org/current/userguide/multi_project_builds.html
+[openjdk]: https://jdk.java.net/
+[websockets]: https://developer.mozilla.org/en-US/docs/Web/API/Websockets_API
+[ubuntu]: http://cdimage.ubuntu.com/ubuntu-base/releases/bionic/release/
 [bysa]: https://choosealicense.com/licenses/cc-by-sa-4.0/
+[skin]: https://openjfx.io/javadoc/13/javafx.controls/javafx/scene/control/package-summary.html
 [snap]: https://snapcraft.io/store
 [swing]: https://docs.oracle.com/javase/tutorial/uiswing/
 [flutter]: https://flutter.dev/
 [qt]: https://www.qt.io/qt-for-python
+[jfxpatch]: https://gitlab.com/openjfxepd/jfxpatch/issues?state=all
 [netbeans]: https://issues.apache.org/jira/browse/NETBEANS-3296
