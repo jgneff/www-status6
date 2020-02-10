@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sponsor John Neffenger
-description: With your support, I will have more time to design, build, and maintain my open-source software projects.
+description: Sponsor John Neffenger to design, build, and maintain open-source software.
 ---
 
 ## **♥**{:.heart} Sponsor Me
@@ -37,7 +37,7 @@ With your support, I'll be able to spend more time on the following projects.
 
 * Port the [Java Swing][swing] framework to devices with e-paper displays.
 
-* Investigate porting [Flutter][flutter] and [Python for Qt][qt] to devices with e-paper displays.
+* Investigate porting [Flutter][flutter] and [Qt for Python][qt] to devices with e-paper displays.
 
 ### Bug Fixes
 
@@ -46,10 +46,10 @@ With your support, I'll be able to spend more time on the following projects.
 * Solve [seven problems][netbeans] I found in NetBeans while trying to attach the JavaFX Javadoc and sources.
 
 [sponsors]: https://github.com/sponsors
-[gpl]: https://choosealicense.com/licenses/gpl-3.0/ "GNU General Public License v3.0"
-[bysa]: https://choosealicense.com/licenses/cc-by-sa-4.0/ "Creative Commons Attribution Share Alike 4.0 International"
-[snap]: https://snapcraft.io/store "Install Linux apps using the Snap Store"
-[swing]: https://docs.oracle.com/javase/tutorial/uiswing/index.html "Creating a GUI With JFC/Swing"
-[flutter]: https://flutter.dev/ "Google's cross-platform UI toolkit"
-[qt]: https://www.qt.io/qt-for-python "The official Python bindings for Qt"
-[netbeans]: https://issues.apache.org/jira/browse/NETBEANS-3296 "NETBEANS-3296: Attaching JavaFX Javadoc and Sources"
+[gpl]: https://choosealicense.com/licenses/gpl-3.0/
+[bysa]: https://choosealicense.com/licenses/cc-by-sa-4.0/
+[snap]: https://snapcraft.io/store
+[swing]: https://docs.oracle.com/javase/tutorial/uiswing/
+[flutter]: https://flutter.dev/
+[qt]: https://www.qt.io/qt-for-python
+[netbeans]: https://issues.apache.org/jira/browse/NETBEANS-3296

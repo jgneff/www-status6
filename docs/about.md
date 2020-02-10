@@ -6,7 +6,7 @@ description: John Neffenger is an independent software developer doing business 
 
 ## About Me
 
-![][jgneff]
+![Head shot of John Neffenger](images/jgneff.jpg){:.right width="156" height="156"}
 I'm a self-employed programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
 *Status Six Communications* is my sole proprietorship and fictitious business name.
@@ -51,7 +51,4 @@ Managing member of Volano LLC in the states of California and Washington.
 Systems programmer implementing communication protocols and application frameworks for personal computers, workstations, minicomputers, and mainframes.
 Contributor to the IBM Series/1 Event Driven Executive Communications Facility, the IBM Open Systems Interconnection (OSI)/Communications Subsystem, and the Taligent CommonPoint Application System.
 
-[clip]: https://youtu.be/GS9wdD-9EYU "&quot;Weapons of Class Destruction&quot; by Jed Seidel (Season 1, Episode 18)"
-
-[jgneff]: images/jgneff.jpg "John Neffenger"
-{:.right width="156" height="156"}
+[clip]: https://youtu.be/GS9wdD-9EYU

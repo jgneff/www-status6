@@ -25,6 +25,6 @@ Canada
 [LinkedIn][linkedin]
 : My online résumé.
 
-[email]: mailto:john@status6.com "Write to John Neffenger"
-[github]: https://github.com/jgneff "John Neffenger on GitHub"
-[linkedin]: https://www.linkedin.com/in/jgneff "John Neffenger on LinkedIn"
+[email]: mailto:john@status6.com
+[github]: https://github.com/jgneff
+[linkedin]: https://www.linkedin.com/in/jgneff

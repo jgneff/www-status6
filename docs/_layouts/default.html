@@ -19,34 +19,35 @@ table {width: auto;}
 header, nav {text-align: center;}
 nav > ul {padding: 0; list-style-type: none;}
 nav > ul > li {display: inline; padding-left: 1em; white-space: nowrap; color: var(--links);}
-nav > ul > li:first-child {padding-left: 0}
+nav > ul > li:first-child {padding-left: 0;}
 h1, h2, h3, footer {clear: both;}
-/* Class and ID selectors */
+/* Other rules */
 #sponsor:hover > b {color: crimson;}
 .heart {color: crimson;}
 .right {float: right; padding: 0 0 1em 1em;}
 .left {float: left; padding: 0 1em 1em 0;}
 .sc {font-variant: small-caps;}
-/* Dark theme */
 @media (prefers-color-scheme: dark) {
   h1 > img {filter: invert(1);}
   pre.highlight > code > span {color: #00417a; filter: invert(1);}
 }
 </style>
-<title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 </head>
 <body>
 <header>
-<a href="index.html" title="Home Page">
-<h1><img src="images/head.svg" width="619" height="96" alt="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"></h1>
+<a href="index.html">
+<h1>
+<img src="images/logo.svg" width="619" height="96" alt="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+</h1>
 </a>
 </header>
 <nav>
 <ul>
-<li><a href="index.html" title="Home Page">Home</a></li>
-<li><a href="about.html" title="About Me">About</a></li>
-<li><a href="contact.html" title="Contact Me">Contact</a></li>
-<li id="sponsor"><b>♥</b>&nbsp;<a href="sponsor.html" title="Sponsor Me">Sponsor</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li id="sponsor"><b>♥</b>&nbsp;<a href="sponsor.html">Sponsor</a></li>
 </ul>
 </nav>
 <main>
@@ -55,7 +56,7 @@ h1, h2, h3, footer {clear: both;}
 <footer>
 <p>Copyright © 2020 John Neffenger.
 STATUS:6 and VOLANO are registered trademarks of John Neffenger.
-Validate <a href="https://validator.w3.org/check?uri=referer" title="W3C Markup Validation Service">HTML</a>.</p>
+Validate <a href="https://validator.w3.org/check?uri=referer">HTML</a>.</p>
 </footer>
 </body>
 </html>
