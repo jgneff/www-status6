@@ -22,6 +22,10 @@ With your support, I'll be able to spend more time on the following projects.
 
 * Develop a new client for the [modern Web][websockets] to replace the existing Java applets.
 
+* Provide the *Volano*{:.sc} chat server for Linux as a self-contained app in the [Snap Store][snap].
+
+* Create a Web-based administrator interface for managing the *Volano*{:.sc} chat server.
+
 ### Electronic Ink
 
 * Post articles about running [Ubuntu Base][ubuntu] on Kobo e-readers and writing cross-platform apps for e-paper.
@@ -47,10 +51,10 @@ With your support, I'll be able to spend more time on the following projects.
 [gradle]: https://docs.gradle.org/current/userguide/multi_project_builds.html
 [openjdk]: https://jdk.java.net/
 [websockets]: https://developer.mozilla.org/en-US/docs/Web/API/Websockets_API
+[snap]: https://snapcraft.io/store
 [ubuntu]: http://cdimage.ubuntu.com/ubuntu-base/releases/bionic/release/
 [bysa]: https://choosealicense.com/licenses/cc-by-sa-4.0/
 [skin]: https://openjfx.io/javadoc/13/javafx.controls/javafx/scene/control/package-summary.html
-[snap]: https://snapcraft.io/store
 [swing]: https://docs.oracle.com/javase/tutorial/uiswing/
 [flutter]: https://flutter.dev/
 [qt]: https://www.qt.io/qt-for-python
