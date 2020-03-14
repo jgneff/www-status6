@@ -5,14 +5,15 @@
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 <meta name="description" content="{{ page.description }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="images/icon.png">
-<link rel="stylesheet" href="styles/light.min.css">
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="icon" type="image/png" href="{{ '/images/icon.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/styles/light.min.css' | relative_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
 <style>
 /* Water.css overrides */
 :root {--text-muted: #767676;} /* Lighthouse audit */
 pre {font-size: unset;} /* Microsoft EdgeHTML 18 */
-code, samp, time, var, kbd {font-family: Consolas, "DejaVu Sans Mono", "Liberation Mono", Menlo, monospace; font-size: 0.85em;}
+body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;}
+code, samp, time, var, kbd {font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 0.85em;}
 footer {padding-top: 0;}
 table {width: auto;}
 /* Water.css additions */
@@ -21,6 +22,8 @@ nav > ul {padding: 0; list-style-type: none;}
 nav > ul > li {display: inline; padding-left: 1em; white-space: nowrap; color: var(--links);}
 nav > ul > li:first-child {padding-left: 0;}
 h1, h2, h3, footer {clear: both;}
+img {display: block; margin-left: auto; margin-right: auto;}
+table {margin-left: auto; margin-right: auto; font-variant-numeric: tabular-nums;}
 /* Other rules */
 #sponsor:hover > b {color: crimson;}
 .heart {color: crimson;}
@@ -28,7 +31,7 @@ h1, h2, h3, footer {clear: both;}
 .left {float: left; padding: 0 1em 1em 0;}
 .sc {font-variant: small-caps;}
 @media (prefers-color-scheme: dark) {
-  h1 > img {filter: invert(1);}
+  header > a > img {filter: invert(1);}
   pre.highlight > code > span {color: #00417a; filter: invert(1);}
 }
 </style>
@@ -36,27 +39,27 @@ h1, h2, h3, footer {clear: both;}
 </head>
 <body>
 <header>
-<a href="index.html">
-<h1>
-<img src="images/logo.svg" width="619" height="96" alt="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-</h1>
+<a href="{{ '/' | relative_url }}">
+<img src="{{ '/images/logo.svg' | relative_url }}" width="619" height="96" alt="STATUS:6">
 </a>
 </header>
 <nav>
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li id="sponsor"><b>♥</b>&nbsp;<a href="sponsor.html">Sponsor</a></li>
+<li><a href="{{ '/' | relative_url }}">Home</a></li>
+<li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+<li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+<li id="sponsor"><b>♥</b>&nbsp;<a href="{{ '/sponsor.html' | relative_url }}">Sponsor</a></li>
 </ul>
 </nav>
 <main>
 {{ content }}
 </main>
 <footer>
-<p>Copyright © 2020 John Neffenger.
+<p>
+Copyright © 2020 <a rel="author" href="{{ '/about.html' | relative_url }}">John Neffenger</a>.
 STATUS:6 and VOLANO are registered trademarks of John Neffenger.
-Validate <a href="https://validator.w3.org/check?uri=referer">HTML</a>.</p>
+Valid <a href="https://validator.w3.org/check?uri=referer">HTML</a>.
+</p>
 </footer>
 </body>
 </html>

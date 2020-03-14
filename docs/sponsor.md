@@ -4,7 +4,7 @@ title: Sponsor John Neffenger
 description: Sponsor John Neffenger to design, build, and maintain open-source software.
 ---
 
-## **♥**{:.heart} Sponsor Me
+# **♥**{:.heart} Sponsor Me
 
 You'll soon be able to sponsor me through [GitHub Sponsors][sponsors].
 GitHub is covering all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
@@ -12,7 +12,7 @@ GitHub expects to review my application by the week of February 17, 2020.
 
 With your support, I'll be able to spend more time on the following projects.
 
-### *Volano™*{:.sc} Chat Server
+## *Volano™*{:.sc} Chat Server
 
 * Lead the development of the [open-source *Volano*{:.sc}][volano] chat server.
 
@@ -26,7 +26,7 @@ With your support, I'll be able to spend more time on the following projects.
 
 * Create a Web-based administrator interface for managing the *Volano*{:.sc} chat server.
 
-### Electronic Ink
+## Electronic Ink
 
 * Post articles about running [Ubuntu Base][ubuntu] on Kobo e-readers and writing cross-platform apps for e-paper.
 
@@ -40,7 +40,7 @@ With your support, I'll be able to spend more time on the following projects.
 
 * Investigate porting [Flutter][flutter] and [Qt for Python][qt] to devices with e-paper displays.
 
-### Bug Fixes
+## Bug Fixes
 
 * Fix the [bugs I found][jfxpatch] in JavaFX while adding support for e-paper displays.
 

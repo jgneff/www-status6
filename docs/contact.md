@@ -4,20 +4,20 @@ title: Contact John Neffenger
 description: Contact information for John Neffenger, doing business as Status Six Communications in Vancouver BC.
 ---
 
-## Contact Me
+# Contact Me
 
-### E-mail
+## E-mail
 
 [John Neffenger &lt;john@status6.com&gt;][email]
 
-### Mail
+## Mail
 
 Status Six Communications  
 125A-1030 Denman Street  
 Vancouver BC&nbsp;&nbsp;V6G 2M6  
 Canada
 
-### Online
+## Online
 
 [GitHub][github]
 : My source code repositories and contribution activity.

@@ -1,60 +1,59 @@
 # ======================================================================
-# Makefile - creates header and icon logos for status6.com
+# Makefile - builds the banner logo and website icon images
 # ======================================================================
 
-# Destination for logos
-DEST = ../docs/images
+# Public website directory
+webdir = ../docs/images
 
 # Commands
 LATEXMK = latexmk
 MUDRAW  = mudraw
 OPTIPNG = optipng
 PDF2SVG = pdf2svg
+SCOUR   = /snap/inkscape/current/bin/scour
 RSYNC   = rsync
 
 # Command options
-LATEXMK_FLAGS = -lualatex
-MUDRAW_FLAGS  = -r 192 -c grayalpha
-RSYNC_FLAGS   = --archive --verbose
+LATEXMK_OPTS = -lualatex
+MUDRAW_OPTS  = -r 192 -c grayalpha
+SCOUR_OPTS   = --enable-id-stripping --shorten-ids --indent=none
+RSYNC_OPTS   = --archive --verbose --checksum
 
-# List of prerequsites
-logos = head.svg head.png icon.png
+# List of targets
+targets = logo.png logo.svg icon.png
 
 # ======================================================================
 # Pattern Rules
 # ======================================================================
 
+icon.png: MUDRAW_OPTS = -r 96 -c gray
+
 tmp/%.pdf: %.tex | tmp
-	$(LATEXMK) $(LATEXMK_FLAGS) -output-directory=$(@D) $<
+	$(LATEXMK) $(LATEXMK_OPTS) -output-directory=$(@D) $<
 
-tmp/%.png: tmp/%.pdf
-	$(MUDRAW) $(MUDRAW_FLAGS) -o $@ $<
+%.png: tmp/%.pdf
+	$(MUDRAW) $(MUDRAW_OPTS) -o $@ $<
+	$(OPTIPNG) $@
 
-%.png: tmp/%.png
-	$(OPTIPNG) -clobber -out $@ $<
-
-%.svg: tmp/%.pdf
+tmp/%.svg: tmp/%.pdf
 	$(PDF2SVG) $< $@
+
+%.svg: tmp/%.svg
+	$(SCOUR) -i $< -o $@ $(SCOUR_OPTS)
 
 # ======================================================================
 # Explicit rules
 # ======================================================================
 
-.PHONY: all pub diff clean
+.PHONY: all pub clean
 
-all: $(logos)
-
-pub: tmp/published
-
-tmp/published: $(logos)
-	$(RSYNC) $(RSYNC_FLAGS) $^ $(DEST)/
-	touch $@
+all: $(targets)
 
 tmp:
 	mkdir -p $@
 
-diff: $(logos)
-	diff --from-file=$(DEST)/ $^ || true
+pub: $(targets)
+	$(RSYNC) $(RSYNC_OPTS) $^ $(webdir)/
 
 clean:
 	rm -f *.png *.svg tmp/*
