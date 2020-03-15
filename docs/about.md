@@ -1,27 +1,26 @@
 ---
 layout: default
 title: About John Neffenger
-description: John Neffenger is an independent software developer doing business as Status Six Communications in Vancouver BC.
+description: John Neffenger is a self-employed programmer, typographer, and system administrator.
 ---
 
 # About Me
 
-![Head shot of John Neffenger](images/jgneff.jpg){:.right width="156" height="156"}
+![Picture of John Neffenger](images/jgneff.jpg){:.right width="156" height="156"}
 I'm a self-employed programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
 *Status Six Communications* is my sole proprietorship and fictitious business name.
 
-**Linux:**
+## Skills
+
 I'm a longtime fan of Linux and Ubuntu.
 I have been running my own Web and e-mail server on the Internet since 1996.
 I switched my server to Linux in 2000 and my desktop to Linux in 2006.
 I even got Ubuntu onto primetime TV way back in 2005 when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
 
-**Languages:**
 I'm also a fan of Java once again.
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*
-The path I took in learning human languages was: *English → French → Italian → French.*
-(I still struggle with French.)
+The path I took in learning human languages was: *English → French → Italian → French* (although I still struggle with French).
 
 ## Experience
 
