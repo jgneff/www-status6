@@ -11,17 +11,17 @@ You can contribute by selecting one of the links below.
 
 **[GitHub Sponsors][github]** will cover all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
 
-* Monthly donations in U.S. dollars
+* Monthly donations in U.S. dollars (USD)
 * Requires a GitHub account
 
 **[Liberapay][liberapay]** is an open-source crowdfunding platform run by a non-profit organization.
 
-* Weekly donations in U.S. or Canadian dollars
+* Weekly donations in U.S. dollars (USD), Canadian dollars (CAD), or euros (EUR)
 * Requires a Liberapay account
 
 **[PayPal][paypal]** allows for donations even without a credit card.
 
-* Monthly or one-time donations in U.S. dollars
+* Monthly or one-time donations in U.S. dollars (USD)
 * Requires a PayPal account only for recurring donations
 
 ## Projects
