@@ -6,23 +6,23 @@ description: Sponsor John Neffenger to design, build, and maintain open-source s
 
 # **♥**{:.heart} Sponsor Me
 
-**GitHub** will cover all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
-You can also sponsor me on the **Liberapay** platform or directly through **PayPal**, with or without a credit card.
+Thank you for your support!
+You can contribute by selecting one of the links below.
 
-[GitHub][github]
-:   * No payment processing fees.
-    * Monthly donations in U.S. Dollars.
-    * Requires a GitHub account.
+**[GitHub Sponsors][github]** will cover all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
 
-[Liberapay][liberapay]
-:   * An open platform by a non-profit organization.
-    * Weekly donations in U.S. or Canadian Dollars.
-    * Requires a Liberapay account.
+* Monthly donations in U.S. dollars
+* Requires a GitHub account
 
-[PayPal][paypal]
-:   * Donate even without a credit card.
-    * Monthly or one-time donations in U.S. Dollars.
-    * Requires a PayPal account for recurring donations.
+**[Liberapay][liberapay]** is an open-source crowdfunding platform run by a non-profit organization.
+
+* Weekly donations in U.S. or Canadian dollars
+* Requires a Liberapay account
+
+**[PayPal][paypal]** allows for donations even without a credit card.
+
+* Monthly or one-time donations in U.S. dollars
+* Requires a PayPal account only for recurring donations
 
 ## Projects
 
@@ -63,10 +63,10 @@ Listed below are some of the [free software][free-sw] projects and [free cultura
 
 * Solve the [problems I found][netbeans] attaching the Javadoc and Sources in NetBeans.
 
-[sponsors]: https://github.com/sponsors
 [github]: https://github.com/sponsors/jgneff
 [liberapay]: https://liberapay.com/jgneff
 [paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TLPD5EPWLSM5G&source=url
+
 [free-sw]: https://www.gnu.org/philosophy/free-sw.html
 [freeworks]: https://creativecommons.org/share-your-work/public-domain/freeworks
 [volano]: https://github.com/jgneff/volano
