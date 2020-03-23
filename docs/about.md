@@ -11,13 +11,13 @@ I'm a self-employed programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
 *Status Six Communications* is my sole proprietorship and fictitious business name.
 
-## Skills
-
+**Linux**&nbsp;&nbsp;
 I'm a longtime fan of Linux and Ubuntu.
 I have been running my own Web and e-mail server on the Internet since 1996.
 I switched my server to Linux in 2000 and my desktop to Linux in 2006.
 I even got Ubuntu onto primetime TV way back in 2005 when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
 
+**Languages**&nbsp;&nbsp;
 I'm also a fan of Java once again.
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*
 The path I took in learning human languages was: *English → French → Italian → French* (although I still struggle with French).

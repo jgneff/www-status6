@@ -20,10 +20,10 @@ Canada
 ## Online
 
 [GitHub][github]
-: My source code repositories and contribution activity.
+: My source code repositories and contribution activity
 
 [LinkedIn][linkedin]
-: My online résumé.
+: My online résumé
 
 [email]: mailto:john@status6.com
 [github]: https://github.com/jgneff
