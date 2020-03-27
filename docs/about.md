@@ -40,7 +40,7 @@ Contributor to the JavaFX graphics module, the Java 2D client library, Apache Ne
 
 *1996--2013 • Sole Proprietor • San Francisco CA • Vancouver BC*
 
-Author of the *Volano™*{:.sc} chat server, a proprietary software package written in Java and licensed to customers in 50 countries.
+Author of the VOLANO™ chat server, a proprietary software package written in Java and licensed to customers in 50 countries.
 Managing member of Volano LLC in the states of California and Washington.
 
 ### IBM Corporation

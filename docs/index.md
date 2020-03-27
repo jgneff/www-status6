@@ -11,16 +11,17 @@ I'm John Neffenger, an independent software developer doing business as *Status 
 ## Programming
 
 Some of my open-source contributions are described below.
-In February 2020, I published my *Volano*{:.sc} chat software under an open-source license.
-My largest contribution before *Volano*{:.sc} was to port JavaFX, the Java application framework, to devices with e-paper displays.
-To prepare for the JavaFX project, I learned how to work with the OpenJDK community by fixing two font bugs that had bothered me for years.
+In February 2020, I published the VOLANO™ chat server under an open-source license.
+In 2019, I ported JavaFX, the Java application framework, to devices with e-paper displays.
+In 2018, to prepare for the JavaFX project, I learned how to work with the OpenJDK community by fixing two font bugs that had bothered me for years.
 
-### *Volano™*{:.sc} Chat Server
+### VOLANO Chat Server
 
-I wrote much of the *Volano*{:.sc} chat clients and server in the spring of 1996.
-During the following decade, it became frozen in time at Java version 1.1 mostly due to the dominance of the [Microsoft Java Virtual Machine][msjvm] in Internet Explorer.
-In the decade after that, it became frozen in time mostly due to me.
-Now, more than two decades after launching the proprietary software, I'm hoping to breathe some life back into it as an [open-source project][volano].
+![VOLANO speech balloon logo](images/volano.svg){:.right width="160" height="96"}
+I wrote much of the VOLANO chat server and applets in the spring of 1996.
+During the following decade, the software became frozen in time at Java version 1.1 mostly due to the dominance of the [Microsoft Java Virtual Machine][msjvm] in Internet Explorer.
+In the decade after that, it remained frozen in time mostly due to me.
+Now, more than two decades after launching the proprietary software, I hope to breathe some life back into it as an [open-source project][volano].
 
 ### JavaFX on E-paper
 
@@ -56,24 +57,24 @@ It was as if the developers of Java couldn't even see the bug!
 
 As it turns out, that was precisely the problem: the developers of Java couldn't even see the bug!
 It didn't occur on their systems running Oracle Linux.
-To solve the problem, I created the repository called "[OpenJDK Freetype Font Fix][openjdk-freetype]" which explained the long and  convoluted history of the bug and provided a two-line fix.
+To solve the problem, I created the repository called "[OpenJDK Freetype Font Fix][openjdk-freetype]" which explained the long and convoluted history of the bug and provided a two-line fix.
 My fix is available in Java 12 or later and has been back-ported to the Java 8 and Java 11 Long Term Support releases.
 
 ### JavaFX Font Fix
 
 ![Screenshot of JavaFX font fix](images/javafx-font-fix.png){:.right width="160" height="80"}
-Before trying to fix the Java font bug, I started first by looking into the same bug in JavaFX.
+Before trying to fix the Java font bug, I started first with the same bug in JavaFX.
 It can be particularly challenging to report bugs about fonts.
 With so many variations, from anti-aliasing and hinting to subpixel rendering and filtering, everyone has an opinion.
-I can be difficult to convince developers that what you're describing is really a bug and not just a personal preference.
-By 2017 there were already two bug reports explaining the problem, but they were both closed as "Not an Issue."
-Worse yet, JavaFX, unlike Windows, renders text without hinting, so the developers were used to receiving reports from users complaining about the fonts.
-By 2018 the bug had persisted for five years.
+It is difficult to convince developers that what you're describing is really a bug and not just a personal preference.
+By 2017, there were already two bug reports explaining the problem, but they were both closed as "Not an Issue."
+Worse yet, JavaFX, unlike Windows, renders its text unhinted, so the developers were used to receiving bug reports complaining about the difference in the fonts.
+By 2018, the bug had persisted for five years.
 If I wanted to open yet another bug report and have it accepted this time, it was going to require some compelling evidence---and probably a fix, too!
 
-I created [Issue #229][openjdk-jfx-229] that provided both the evidence and the fix.
-My [Pull Request #235][openjdk-jfx-235] was merged into JavaFX within two days and is available in JavaFX 12 or later.
-As with the Java font bug, because of a quirk in how the problem occurred, the developers of JavaFX couldn't even see the bug either!
+I created [Issue #229][openjdk-jfx-229] to provide both the evidence and the fix, and my [Pull Request #235][openjdk-jfx-235] was merged into JavaFX within two days.
+It is available in JavaFX 12 or later.
+As with the Java font bug, because of a quirk in how the problem occurred, the developers of JavaFX couldn't see this bug either!
 
 ## Typography
 

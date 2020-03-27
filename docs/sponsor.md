@@ -29,19 +29,19 @@ You can contribute by selecting one of the links below.
 With your support, I will be able to spend more time designing, building, and maintaining open-source software.
 Listed below are some of the [free software][free-sw] projects and [free cultural works][freeworks] I hope to complete.
 
-### *Volano™*{:.sc} Chat Server
+### VOLANO Chat Server
 
-* Manage contributions to the open-source [*Volano*{:.sc} chat server][volano].
+* Manage contributions to the open-source [VOLANO chat server][volano].
 
 * Switch the build automation from Apache Ant and GNU Make to [Gradle][gradle].
 
-* Refactor the *Volano*{:.sc} chat server for the latest [Java Development Kit][openjdk] (JDK).
+* Refactor the VOLANO chat server for the latest [Java Development Kit][openjdk] (JDK).
 
 * Develop a new client for the [modern Web][websockets] to replace the existing Java applets.
 
-* Publish the *Volano*{:.sc} chat server for Linux as an app in the [Snap Store][snap].
+* Publish the VOLANO chat server for Linux as an app in the [Snap Store][snap].
 
-* Create a Web administrator interface for managing the *Volano*{:.sc} chat server.
+* Create a Web administrator interface for managing the VOLANO chat server.
 
 ### Electronic Ink
 
