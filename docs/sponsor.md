@@ -9,17 +9,17 @@ description: Sponsor John Neffenger to design, build, and maintain open-source s
 Thank you for your support!
 You can contribute by selecting one of the links below.
 
-**[GitHub Sponsors][github]** will cover all payment processing fees through May 2020 so that one-hundred percent of your sponsorship goes to the developers you fund.
+**[GitHub Sponsors][github]** covers all payment processing fees, so one-hundred percent of your sponsorship goes to the developers you fund.
 
 * Monthly donations in U.S. dollars (USD)
 * Requires a GitHub account
 
-**[Liberapay][liberapay]** is an open-source crowdfunding platform run by a non-profit organization.
+**[Liberapay][liberapay]** is an open-source crowdfunding platform run by a non-profit organization and deducts only its payment processing fees.
 
 * Weekly donations in U.S. dollars (USD), Canadian dollars (CAD), or euros (EUR)
 * Requires a Liberapay account
 
-**[PayPal][paypal]** allows for donations even without a credit card.
+**[PayPal][paypal]** allows for donations without a credit card and deducts only its payment processing fees.
 
 * Monthly or one-time donations in U.S. dollars (USD)
 * Requires a PayPal account only for recurring donations
