@@ -37,7 +37,7 @@ Java and JavaFX, though, already had much of what I needed to make it work.
 So I added the support to JavaFX and contributed the code to the OpenJDK project.
 I submitted the code in two parts consisting of 1,831 new lines of code: 1,634 in Java and 197 in C.
 
-1. The first part adds the JavaFX platform for Linux systems with e-paper displays, such as the Amazon Kindle and Rakuten Kobo e-readers.
+1. The first part adds a JavaFX platform for Linux systems with e-paper displays, such as the Amazon Kindle and Rakuten Kobo e-readers.
 See [Issue #339][openjdk-jfx-339] for details on the motivation and design of the new platform and [Pull Request #369][openjdk-jfx-369] for the implementation.
 It is available in JavaFX 13 or later.
 
@@ -55,9 +55,9 @@ And for 10 years, the bug was still there: color fringes so severe that it was i
 I was ready to abandon the platform altogether if it wasn't going to be fixed.
 It was as if the developers of Java couldn't even see the bug!
 
-As it turns out, that was precisely the problem: the developers of Java couldn't even see the bug!
-It didn't occur on their systems running Oracle Linux.
-To solve the problem, I created the repository called "[OpenJDK Freetype Font Fix][openjdk-freetype]" which explained the long and convoluted history of the bug and provided a two-line fix.
+As it turns out, that was precisely the problem: the developers of Java couldn't even see the bug.
+It didn't happen on their systems running Oracle Linux.
+To solve the problem, I created the repository "[OpenJDK Freetype Font Fix][openjdk-freetype]," which explained the long and convoluted history of the bug and provided a two-line fix.
 My fix is available in Java 12 or later and has been back-ported to the Java 8 and Java 11 Long Term Support releases.
 
 ### JavaFX Font Fix
@@ -70,11 +70,11 @@ It is difficult to convince developers that what you're describing is really a b
 By 2017, there were already two bug reports explaining the problem, but they were both closed as "Not an Issue."
 Worse yet, JavaFX, unlike Windows, renders its text unhinted, so the developers were used to receiving bug reports complaining about the difference in the fonts.
 By 2018, the bug had persisted for five years.
-If I wanted to open yet another bug report and have it accepted this time, it was going to require some compelling evidence---and probably a fix, too!
+If I wanted to open yet another bug report and have it accepted this time, it was going to require some compelling evidence---and probably a fix, too.
 
 I created [Issue #229][openjdk-jfx-229] to provide both the evidence and the fix, and my [Pull Request #235][openjdk-jfx-235] was merged into JavaFX within two days.
 It is available in JavaFX 12 or later.
-As with the Java font bug, because of a quirk in how the problem occurred, the developers of JavaFX couldn't see this bug either!
+As with the Java font bug, because of a quirk in how the problem occurred, the developers of JavaFX couldn't see this bug either.
 
 ## Typography
 
