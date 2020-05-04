@@ -43,7 +43,7 @@ It is available in JavaFX 13 or later.
 
 2. The second part adds support for additional device models.
 See [Issue #521][openjdk-jfx-521] for details and [Pull Request #60][jfx-60] for the implementation.
-I'm hoping this contribution will make it into JavaFX 15.
+It will be available in JavaFX 15 or later.
 
 I also developed a separate JavaFX application to test the support for e-paper displays, published in my repository "[JavaFX on E-Paper][epd-javafx]."
 
