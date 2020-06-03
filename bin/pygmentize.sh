@@ -5,6 +5,6 @@
 # List themes with: pygmentize -L styles
 theme=vs
 
-output=docs/styles/pygments-${theme}.scss
-printf "%s\n%s\n" "---" "---" > $output
-pygmentize -S $theme -f html -a .highlight >> $output
+output=docs/_sass/pygments-${theme}.scss
+pygmentize -S $theme -f html -a .highlight \
+   | sed '/.highlight  {/d' > $output

@@ -5,6 +5,5 @@
 # List themes with: rougify help style
 theme=github
 
-output=docs/styles/rouge-${theme}.scss
-printf "%s\n%s\n" "---" "---" > $output
-rougify style $theme >> $output
+output=docs/_sass/rouge-${theme}.scss
+rougify style $theme > $output
