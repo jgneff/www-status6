@@ -1,0 +1,22 @@
+/**
+ * Site-specific styles
+ */
+
+#sponsor:hover > b {
+  color: crimson;
+}
+
+.heart {
+  color: crimson;
+}
+
+@media (prefers-color-scheme: dark) {
+  header > a > img {
+    filter: invert(1);
+  }
+
+  pre.highlight > code > span {
+    filter: invert(1); /* Inverts colors of syntax highlighting */
+    color: #00417a; /* Resets default color */
+  }
+}
