@@ -11,7 +11,7 @@ webdir = ../docs/images
 
 # Commands
 LATEXMK = latexmk
-MUDRAW  = mudraw
+MUDRAW  = mutool draw
 OPTIPNG = optipng
 PDF2SVG = pdf2svg
 SCOUR   = /snap/inkscape/current/bin/scour
@@ -24,7 +24,7 @@ SCOUR_OPTS   = --enable-id-stripping --shorten-ids --indent=none
 RSYNC_OPTS   = --archive --verbose --checksum
 
 # Python path for scour module in Inkscape snap package
-pypath = /snap/inkscape/current/lib/python3.6/site-packages
+pypath = /snap/inkscape/current/lib/python3.8/site-packages
 
 # List of targets
 targets = logo.png logo.svg icon.png
