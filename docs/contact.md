@@ -10,21 +10,21 @@ description: Contact information for John Neffenger, doing business as Status Si
 
 [John Neffenger &lt;john@status6.com&gt;][email]
 
-## Mail
+## Address
 
 Status Six Communications  
 125A-1030 Denman Street  
 Vancouver BC&nbsp;&nbsp;V6G 2M6  
 Canada
 
-## Online
+## Social
 
 [GitHub][github]
-: My source code repositories and contribution activity
+: My open-source projects and contribution activity
 
-[LinkedIn][linkedin]
-: My online résumé
+[Launchpad][launchpad]
+: My Snap package builds and Ubuntu bug reports
 
 [email]: mailto:john@status6.com
 [github]: https://github.com/jgneff
-[linkedin]: https://www.linkedin.com/in/jgneff
+[launchpad]: https://launchpad.net/~jgneff

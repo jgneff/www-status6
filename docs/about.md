@@ -6,14 +6,14 @@ description: John Neffenger is a self-employed programmer, typographer, and syst
 
 # About Me
 
-![Picture of John Neffenger](images/jgneff.jpg){:.right width="156" height="156"}
+![Picture of John Neffenger](images/profile-1x.jpg){:.right width="156" height="156" srcset="images/profile-2x.jpg 2x"}
 I'm a self-employed programmer, typographer, and system administrator.
-I write software for the Java platform, design books with the LaTeX typesetting system, and manage servers running the Ubuntu operating system.
+I write software for the Java platform, design books with the LaTeX typesetting system, and manage systems running the Ubuntu operating system.
 *Status Six Communications* is my sole proprietorship and fictitious business name.
 
 **Linux**&nbsp;&nbsp;
-I'm a longtime fan of Linux and Ubuntu.
-I have been running my own Web and e-mail server on the Internet since 1996.
+I'm a longtime fan of Linux.
+I ran my own Web and e-mail server on the Internet from May 1996 through July 2020.
 I switched my server to Linux in 2000 and my desktop to Linux in 2006.
 I even got Ubuntu onto primetime TV way back in 2005 when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
 
@@ -27,16 +27,16 @@ The path I took in learning human languages was: *English → French → Italian
 My first programming job after university was a summer internship at Uludağ University in Bursa, Turkey.
 After the summer, I joined IBM as a systems programmer, first in Palo Alto, California, then in Rome, Italy, then back in Mountain View, California.
 After leaving IBM, I started my own business as a proprietary software developer and member of a Limited Liability Company in California and Washington.
-Now I live in Vancouver, British Columbia, and hope to work full-time on open-source projects.
+I now live in Vancouver, British Columbia, and spend much of my time working on open-source software.
 
 ### Status Six Communications
 
 *2013--Present • Sole Proprietor • Vancouver BC*
 
 Open-source software developer.
-Contributor to the JavaFX graphics module, the Java 2D client library, Apache NetBeans, and the Adopt OpenJDK Build Farm.
+Contributor to the JavaFX graphics module, Java 2D client library, Apache NetBeans IDE, and AdoptOpenJDK build team.
 
-### Volano Software • Volano LLC
+### Volano Software
 
 *1996--2013 • Sole Proprietor • San Francisco CA • Vancouver BC*
 

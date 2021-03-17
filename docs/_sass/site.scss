@@ -2,6 +2,10 @@
  * Site-specific styles
  */
 
+#sponsor > b {
+  font-size: larger;
+}
+
 #sponsor:hover > b {
   color: crimson;
 }
@@ -18,5 +22,14 @@
   pre.highlight > code > span {
     filter: invert(1); /* Inverts colors of syntax highlighting */
     color: #00417a; /* Resets default color */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .right {
+    float: none;
+    padding: 0 0 1em 0;
+    display: block;
+    margin: auto;
   }
 }
