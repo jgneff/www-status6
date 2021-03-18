@@ -7,7 +7,7 @@ description: Sponsor John Neffenger to design, build, and maintain open-source s
 # **♥**{:.heart} Sponsor Me
 
 Thank you for your support!
-I depend entirely on your contributions to finance my work in open-source software.
+I depend entirely on your contributions to finance my open-source projects.
 There are three options to start a sponsorship or make a donation:
 
 **[GitHub Sponsors][github]**
@@ -44,5 +44,5 @@ Make it easy to install, configure, and monitor the server.
 : Document how to design, code, and test Java apps for e-paper with Ubuntu on the Kobo e-reader.
 
 [github]: https://github.com/sponsors/jgneff
-[liberapay]: https://liberapay.com/jgneff
-[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TLPD5EPWLSM5G&source=url
+[liberapay]: https://liberapay.com/jgneff/donate
+[paypal]: https://www.paypal.com/donate?hosted_button_id=TLPD5EPWLSM5G
