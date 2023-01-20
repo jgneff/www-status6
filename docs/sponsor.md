@@ -7,13 +7,12 @@ description: Sponsor John Neffenger to design, build, and maintain open-source s
 # **♥**{:.heart} Sponsor Me
 
 Thank you for your support!
-I depend entirely on your contributions to finance my open-source projects.
-There are three options to start a sponsorship or make a donation:
+I provide three options for a sponsorship or donation:
 
 **[GitHub Sponsors][github]**
 : covers all payment processing fees, so 100% of your sponsorship goes to the developer.
 
-  * Monthly donations in U.S. dollars (USD)
+  * Monthly or one-time donations in U.S. dollars (USD)
   * Requires a GitHub account
 
 **[Liberapay][liberapay]**

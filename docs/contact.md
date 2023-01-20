@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact John Neffenger
-description: Contact information for John Neffenger, doing business as Status Six Communications in Vancouver BC.
+description: Contact information for John Neffenger.
 ---
 
 # Contact Me
@@ -10,20 +10,13 @@ description: Contact information for John Neffenger, doing business as Status Si
 
 [John Neffenger &lt;john@status6.com&gt;][email]
 
-## Address
-
-Status Six Communications  
-125A-1030 Denman Street  
-Vancouver BC&nbsp;&nbsp;V6G 2M6  
-Canada
-
 ## Social
 
 [GitHub][github]
 : My open-source projects and contribution activity
 
 [Launchpad][launchpad]
-: My Snap package builds and Ubuntu bug reports
+: My Snap packages and Ubuntu bug reports
 
 [email]: mailto:john@status6.com
 [github]: https://github.com/jgneff

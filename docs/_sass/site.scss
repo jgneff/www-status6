@@ -15,8 +15,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  header > a > img {
-    filter: invert(1);
+  img.darkmode {
+    filter: invert(1) hue-rotate(180deg);
   }
 
   pre.highlight > code > span {

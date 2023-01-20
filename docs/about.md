@@ -1,53 +1,51 @@
 ---
 layout: default
 title: About John Neffenger
-description: John Neffenger is a self-employed programmer, typographer, and system administrator.
+description: John Neffenger is an independent programmer, typographer, and system administrator.
 ---
 
 # About Me
 
 ![Picture of John Neffenger](images/profile-1x.jpg){:.right width="156" height="156" srcset="images/profile-2x.jpg 2x"}
-I'm a self-employed programmer, typographer, and system administrator.
+I'm an independent programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage systems running the Ubuntu operating system.
-*Status Six Communications* is my sole proprietorship and fictitious business name.
 
-**Linux**&nbsp;&nbsp;
-I'm a longtime fan of Linux.
-I ran my own Web and e-mail server on the Internet from May 1996 through July 2020.
-I switched my server to Linux in 2000 and my desktop to Linux in 2006.
-I even got Ubuntu onto primetime TV way back in 2005 when a friend asked me to write [30 seconds of "geek speek"][clip] for his episode of *Veronica Mars*.
+The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembler → Rexx → C → System/370 Assembler → C++ → Java*.
+The path I took in learning human languages was: *English → French → Italian → French*, although I could still use a few more lessons in French.
 
-**Languages**&nbsp;&nbsp;
-I'm also a fan of Java once again.
-The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembly → Rexx → C → System/370 Assembly → C++ → Java.*
-The path I took in learning human languages was: *English → French → Italian → French* (although I still struggle with French).
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="images/mypath-1x.png 1x, images/mypath-2x.png 2x">
+<source media="(prefers-color-scheme: dark)" srcset="images/mypath-1x-dark.png 1x, images/mypath-2x-dark.png 2x">
+<img src="images/mypath.svg" width="800" height="400" alt="World map with labels showing my path in learning programming languages">
+</picture>
 
 ## Experience
 
-My first programming job after university was a summer internship at Uludağ University in Bursa, Turkey.
-After the summer, I joined IBM as a systems programmer, first in Palo Alto, California, then in Rome, Italy, then back in Mountain View, California.
-After leaving IBM, I started my own business as a proprietary software developer and member of a Limited Liability Company in California and Washington.
-I now live in Vancouver, British Columbia, and spend much of my time working on open-source software.
+🇺🇸 **Bowling Green, Ohio**
+: My first experience in writing software was at a summer camp for high-school students at Bowling Green State University, where I learned how to program in BASIC.
 
-### Status Six Communications
+🇺🇸 **Evanston, Illinois**
+: I studied general-programming concepts in Fortran and computer-science concepts in Pascal at Northwestern University, where I majored in mathematics.
 
-*2013--Present • Sole Proprietor • Vancouver BC*
+🇹🇷 **Bursa, Turkey**
+: My first paid job as a programmer was a summer internship at Uludağ University, where I wrote accounting software in COBOL on a Burroughs mainframe.
 
-Open-source software developer.
-Contributor to the JavaFX graphics module, Java 2D client library, Apache NetBeans IDE, and AdoptOpenJDK build team.
+🇺🇸 **Palo Alto, California**
+: I joined IBM as a systems programmer implementing communication protocols for the Series/1 minicomputer.
+I contributed to the IBM Series/1 EDX Communications Facility, written in Series/1 EDL and Assembler, and the IBM OSI/Communications Subsystem, written in Pascal.
+I completed courses at Stanford University in numerical analysis and in UNIX and C programming.
 
-### Volano Software
+🇮🇹 **Rome, Italy**
+: On assignment in Rome, I developed the host side of a high-speed data pipe between a System/370 host and an RS/6000 workstation in C and System/370 Assembler for IBM OSI Connect.
 
-*1996--2013 • Sole Proprietor • San Francisco CA • Vancouver BC*
+🇺🇸 **Cupertino, California**
+: Back in California, I worked for IBM at Taligent on the Taligent CommonPoint Application System, an application framework written in C++ for personal computers and UNIX workstations.
 
-Author of the VOLANO™ chat server, a proprietary software package written in Java and licensed to customers in 50 countries.
-Managing member of Volano LLC in the states of California and Washington.
+🇺🇸 **San Francisco, California**
+: After leaving IBM, I started my own business as a managing member of Volano LLC in the states of California and Washington.
+I learned Java by writing the VOLANO™ chat server, a proprietary software package licensed to customers in 50 countries around the world.
 
-### IBM Corporation
-
-*1984--1996 • Staff Programmer • Palo Alto CA • Rome, Italy • Mountain View CA*
-
-Systems programmer implementing communication protocols and application frameworks for personal computers, workstations, minicomputers, and mainframes.
-Contributor to the IBM Series/1 Event Driven Executive Communications Facility, the IBM Open Systems Interconnection (OSI)/Communications Subsystem, and the Taligent CommonPoint Application System.
-
-[clip]: https://youtu.be/GS9wdD-9EYU
+🇨🇦 **Vancouver, British Columbia**
+: I now work full time on open-source software.
+I contribute to the OpenJDK (Java), OpenJFX (JavaFX), Apache NetBeans, and Reproducible Builds projects.
+I am a member of the OpenJDK Organization and an OpenJFX Committer.
