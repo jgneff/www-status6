@@ -7,7 +7,7 @@ description: John Neffenger's contributions to open-source projects.
 # My Contributions
 
 My contributions to open-source projects other than my own are listed below.
-Those that resolved especially challenging issues or required more time are marked with a star (⭐).
+Those that required more time and effort are marked with a star (⭐).
 
 ## In Progress
 
@@ -80,7 +80,7 @@ It took all of 2020 for me to complete the JavaFX project that I started in 2019
 **[OpenJFX](https://github.com/openjdk/jfx/pull/257): Get two bytes for the Linux input event type, not four**
 : 2020-07-02 • 1 file changed with 1 addition and 1 deletion
 
-**[OpenJFX](https://github.com/openjdk/jfx/pull/60): Add support for e-paper displays on i.MX6 devices**
+**[OpenJFX](https://github.com/openjdk/jfx/pull/60): Add support for e-paper displays on i.MX6 devices** ⭐
 : 2020-04-29 • 7 files changed with 236 additions and 45 deletions
 
 **[GitHub](https://github.com/github/archive-program/pull/16): Change .pdf file type to Portable Document Format**

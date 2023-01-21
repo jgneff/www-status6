@@ -10,7 +10,7 @@ I'm John Neffenger, an independent software developer in Vancouver, British Colu
 
 ## Programming
 
-My main open-source contributions are listed below and described in the sections that follow.
+My main open-source [contributions](contributions.html) are listed below and described in the sections that follow.
 
 **2022**
 : Created reproducible builds of the OpenJDK and OpenJFX projects.
