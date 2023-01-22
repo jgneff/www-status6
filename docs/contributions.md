@@ -111,7 +111,7 @@ I had been working on the feature in my spare time for years, so I was grateful 
 
 ### 2018
 
-I got started with Git and GitHub in July 2018 by fixing some typographical errors in the Standard Ebooks edition of *Flatland*, by Edwin A. Abbott.
+I got started with Git and GitHub in July 2018 by fixing some typographical errors in the Standard Ebooks edition of [*Flatland*](https://standardebooks.org/ebooks/edwin-a-abbott/flatland), by Edwin A. Abbott.
 In October, I started to contribute in earnest by fixing an old pair of Java and JavaFX font bugs.
 
 **[OpenJDK](https://github.com/jgneff/openjdk-freetype): Need to set the FreeType LCD Filter to reduce fringing** ⭐

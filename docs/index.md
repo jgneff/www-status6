@@ -30,9 +30,9 @@ My main open-source [contributions](contributions.html) are listed below and des
 ### Snap Store
 
 ![OpenJDK: Current JDK release & early-access builds](images/openjdk2.svg){:.right width="384" height="192"}
-In December 2020, I started publishing the current releases of OpenJDK and OpenJFX in the Snap Store when I saw that [they were not available][openjdk-question] in any current release of Ubuntu.
+In December 2020, I started publishing the current releases of OpenJDK and OpenJFX in the Snap Store when I saw that they were [not available][openjdk-question] in any current release of Ubuntu.
 I had been building both projects for years as part of my own testing, but the Snap packages let me document the process and create up-to-date builds for myself and anyone else who wanted them.
-The Snap Store now has the current general-availability releases, release candidates, and early-access builds of [OpenJDK][openjdk-snap] and [OpenJFX][openjfx-snap] for Linux, built directly from their source code on GitHub.
+The Snap Store now has the current releases and early-access builds of [OpenJDK][openjdk-snap] and [OpenJFX][openjfx-snap] for Linux, built directly from their source code on GitHub.
 
 ### VOLANO Chat Server
 
@@ -50,7 +50,7 @@ It was the first time I had seen [animation in electronic ink][dancer].
 After the conference, I was determined to reproduce the artwork on my own, but I soon learned how difficult that would be.
 The documentation was hard to find and provided only a C-language interface to the device driver.
 I wanted to use a cross-platform language and framework that would let me test my applications on a desktop computer and run them unmodified on the device.
-I wanted to use a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, but none of them supported embedded devices with e-paper displays.
+I preferred a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, but none of them supported embedded devices with e-paper displays.
 JavaFX, though, already had much of what I needed to make it work.
 
 So I added the support to JavaFX and contributed the code to the OpenJFX project.
@@ -66,7 +66,7 @@ I also published a [JavaFX application][epd-javafx] to test the new platform.
 ![Screenshot of Java font bug](images/font-bug-java-1x.png){:.right .darkmode width="320" height="60" srcset="images/font-bug-java-2x.png 2x"}
 For 10 years, each time I downloaded a new release of Java, I immediately checked whether the font bug had been fixed.
 And for 10 years, each time I checked, the bug was still there: color fringes so severe that it was impossible to use.
-Eventually, I decided I would either fix the problem myself or abandon Java altogether.
+I came to the conclusion that I needed to fix the problem myself or abandon Java altogether.
 
 I created the repository [OpenJDK FreeType Font Fix][openjdk-freetype] to explain the long and convoluted history of the bug and provide a two-line fix.
 The fix is available in Java 12 or later and has been back-ported to the Java 8 and 11 Long Term Support releases.
@@ -87,7 +87,7 @@ The fix is available in JavaFX 12 or later.
 
 ## Typography
 
-I took on these projects to find out whether I could automate the production of well-formatted books in plain text, HTML, EPUB, Kindle MOBI, and several PDF paper sizes, all from a single source written in LaTeX.
+I took on these projects to find out whether I could automate the production of well-formatted books in plain text, HTML, EPUB, Kindle MOBI, and several PDF paper sizes, all from a single source.
 The projects were a success thanks to the great open-source tools available in LaTeX, HeVeA, ImageMagick, Potrace, and Inkscape.
 
 ### *Wild & Woolly*

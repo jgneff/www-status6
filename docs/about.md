@@ -21,31 +21,30 @@ The path I took in learning human languages was: *English → French → Italian
 
 ## Experience
 
-🇺🇸 **Bowling Green, Ohio**
-: My first experience in writing software was at a summer camp for high-school students at Bowling Green State University, where I learned how to program in BASIC.
+**Bowling Green, Ohio**&emsp;🇺🇸
+: My first experience writing software was at a summer camp for high-school students at Bowling Green State University, where I learned how to program in BASIC.
 
-🇺🇸 **Evanston, Illinois**
+**Evanston, Illinois**&emsp;🇺🇸
 : I studied general-programming concepts in Fortran and computer-science concepts in Pascal at Northwestern University, where I majored in mathematics.
 
-🇹🇷 **Bursa, Turkey**
+**Bursa, Turkey**&emsp;🇹🇷
 : My first paid job as a programmer was a summer internship at Uludağ University, where I wrote accounting software in COBOL on a Burroughs mainframe.
 
-🇺🇸 **Palo Alto, California**
+**Palo Alto, California**&emsp;🇺🇸
 : I joined IBM as a systems programmer implementing communication protocols for the Series/1 minicomputer.
 I contributed to the IBM Series/1 EDX Communications Facility, written in Series/1 EDL and Assembler, and the IBM OSI/Communications Subsystem, written in Pascal.
 I completed courses at Stanford University in numerical analysis and in UNIX and C programming.
 
-🇮🇹 **Rome, Italy**
-: On assignment in Rome, I developed the host side of a high-speed data pipe between a System/370 host and an RS/6000 workstation in C and System/370 Assembler for IBM OSI Connect.
+**Rome, Italy**&emsp;🇮🇹
+: On assignment in Rome, I developed the host side of a high-speed data pipe between a mainframe host and a UNIX workstation in C and System/370 Assembler for IBM OSI Connect.
 
-🇺🇸 **Cupertino, California**
+**Cupertino, California**&emsp;🇺🇸
 : Back in California, I worked for IBM at Taligent on the Taligent CommonPoint Application System, an application framework written in C++ for personal computers and UNIX workstations.
 
-🇺🇸 **San Francisco, California**
+**San Francisco, California**&emsp;🇺🇸
 : After leaving IBM, I started my own business as a managing member of Volano LLC in the states of California and Washington.
 I learned Java by writing the VOLANO™ chat server, a proprietary software package licensed to customers in 50 countries around the world.
 
-🇨🇦 **Vancouver, British Columbia**
-: I now work full time on open-source software.
-I contribute to the OpenJDK (Java), OpenJFX (JavaFX), Apache NetBeans, and Reproducible Builds projects.
+**Vancouver, British Columbia**&emsp;🇨🇦
+: I now work full time on open-source software and contribute to the OpenJDK (Java), OpenJFX (JavaFX), Apache NetBeans, and Reproducible Builds projects.
 I am a member of the OpenJDK Organization and an OpenJFX Committer.

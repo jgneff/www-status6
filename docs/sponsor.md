@@ -33,14 +33,12 @@ With your support, I can continue to work on the following projects:
 
 **OpenJDK and OpenJFX**
 : Publish each new release of OpenJDK and OpenJFX in the Snap Store.
-Work with the upstream projects to create verified reproducible builds.
 
 **VOLANO Chat Server**
 : Update the server with the latest Java features and rewrite the clients for the modern Web.
-Make it easy to install, configure, and monitor the server.
 
 **Programming Electronic Ink**
-: Document how to design, code, and test Java apps for e-paper with Ubuntu on the Kobo e-reader.
+: Document how to develop Java applications for e-paper with Ubuntu on the Kobo e-reader.
 
 [github]: https://github.com/sponsors/jgneff
 [liberapay]: https://liberapay.com/jgneff/donate
