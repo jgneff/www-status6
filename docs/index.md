@@ -19,13 +19,13 @@ My main open-source [contributions](contributions.html) are listed below and des
 : Published the current releases of OpenJDK and OpenJFX in the Snap Store.
 
 **2020**
-: Released the VOLANO™ chat server under an open-source license.
+: Released the VOLANO chat server under an open-source license.
 
 **2019**
 : Ported the JavaFX application framework to devices with e-paper displays.
 
 **2018**
-: Learned how to contribute to the OpenJDK project by fixing two old font bugs.
+: Learned how to contribute to the OpenJDK project by fixing two font bugs.
 
 ### Snap Store
 
