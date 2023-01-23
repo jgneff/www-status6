@@ -9,19 +9,19 @@ description: Sponsor John Neffenger to design, build, and maintain open-source s
 Thank you for your support!
 I provide three options for a sponsorship or donation:
 
-**[GitHub Sponsors][github]**
+**[GitHub Sponsors](https://github.com/sponsors/jgneff)**
 : covers all payment processing fees, so 100% of your sponsorship goes to the developer.
 
   * Monthly or one-time donations in U.S. dollars (USD)
   * Requires a GitHub account
 
-**[Liberapay][liberapay]**
+**[Liberapay](https://liberapay.com/jgneff/donate)**
 : is an open-source crowdfunding platform run by a non-profit organization.
 
   * Weekly donations in U.S. dollars (USD), Canadian dollars (CAD), or euros (EUR)
   * Requires a Liberapay account
 
-**[PayPal][paypal]**
+**[PayPal](https://www.paypal.com/donate?hosted_button_id=TLPD5EPWLSM5G)**
 : allows for donations without a credit card.
 
   * Monthly or one-time donations in U.S. dollars (USD)
@@ -39,7 +39,3 @@ With your support, I can continue to work on the following projects:
 
 **Programming Electronic Ink**
 : Document how to develop Java applications for e-paper with Ubuntu on the Kobo e-reader.
-
-[github]: https://github.com/sponsors/jgneff
-[liberapay]: https://liberapay.com/jgneff/donate
-[paypal]: https://www.paypal.com/donate?hosted_button_id=TLPD5EPWLSM5G
