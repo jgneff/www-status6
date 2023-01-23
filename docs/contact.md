@@ -8,16 +8,24 @@ description: Contact information for John Neffenger.
 
 ## E-mail
 
-[John Neffenger &lt;john@status6.com&gt;][email]
+John Neffenger &lt;[john@status6.com][email]&gt;
 
-## Social
+## Communities
 
-[GitHub][github]
-: My open-source projects and contribution activity
+[**GitHub**][github]
+: My own projects and most of my contribution activity
 
-[Launchpad][launchpad]
-: My Snap packages and Ubuntu bug reports
+[**GitLab**][gitlab]
+: My bug reports to projects on GitLab, such as QEMU
+
+[**Debian Salsa**][salsa]
+: My contributions to the Reproducible Builds project
+
+[**Launchpad**][launchpad]
+: My Snap packages and Ubuntu package bug reports
 
 [email]: mailto:john@status6.com
 [github]: https://github.com/jgneff
+[gitlab]: https://gitlab.com/jgneff
+[salsa]: https://salsa.debian.org/jgneff
 [launchpad]: https://launchpad.net/~jgneff
