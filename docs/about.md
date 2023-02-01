@@ -24,10 +24,10 @@ I have worked as a software developer in 🇹🇷&nbsp;Türkiye, 🇺🇸&nbsp;t
 </picture>
 
 **Bowling Green, Ohio**
-: My first experience writing software was at a summer camp for high-school students at Bowling Green State University, where I learned how to program in BASIC.
+: My first experience writing software was during a summer session for high-school students at Bowling Green State University, where I learned how to program in BASIC.
 
 **Evanston, Illinois**
-: I studied general-programming concepts in Fortran and computer-science concepts in Pascal at Northwestern University, where I majored in mathematics.
+: I studied general programming concepts in Fortran and computer science concepts in Pascal at Northwestern University, where I majored in mathematics.
 
 **Bursa, Türkiye**
 : My first paid job as a programmer was a summer internship at Bursa Uludağ University, where I wrote accounting software in COBOL on a Burroughs mainframe.
@@ -48,5 +48,5 @@ I completed courses at Stanford University in numerical analysis and in UNIX and
 I learned Java by writing the VOLANO chat server, a proprietary software package licensed to customers in 50 countries around the world.
 
 **Vancouver, British Columbia**
-: I now work full time on open-source software and contribute to the OpenJDK (Java), OpenJFX (JavaFX), Apache NetBeans, and Reproducible Builds projects.
+: I now work full time on open-source software and have contributed to the OpenJDK, OpenJFX, Apache NetBeans, and Reproducible Builds projects.
 I am a member of the OpenJDK Organization and an OpenJFX Committer.
