@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Contributions by John Neffenger
-description: John Neffenger's contributions to open-source projects.
+description: John Neffenger's contributions to open-source software.
 ---
 
-# My Contributions
+# Contributions
 
 My contributions to open-source projects other than my own are listed below.
 Those that required more time and effort are marked with a star (⭐&#xFE0F;).
+A separate page lists my [security contributions](security.html) in more detail.
 
 ## In Progress
 
@@ -23,7 +24,7 @@ Those that required more time and effort are marked with a star (⭐&#xFE0F;).
 
 ### 2023
 
-Having created secure packages of my development tools in 2022, my goals this year are to finish the two long-running contributions listed above and start work on my own open-source projects.
+Having created secure packages of my development tools in 2022, my goals this year are to finish the two long-running contributions shown in progress above and to work on my own open-source projects.
 
 **[NetBeans](https://github.com/apache/netbeans/pull/5372)**
 : Import local schema to avoid DNS lookup in build
@@ -33,7 +34,7 @@ Having created secure packages of my development tools in 2022, my goals this ye
 
 I continued the security work I started in 2021 by making related contributions to the OpenJDK, NetBeans, and Tomcat projects.
 These changes allowed me to create strictly-confined Snap packages of my entire toolchain: [OpenJDK](https://github.com/jgneff/openjdk), [OpenJFX](https://github.com/jgneff/openjfx), [Maven](https://github.com/jgneff/strictly-maven), and [NetBeans](https://github.com/jgneff/strictly-netbeans).
-Two years after first reading about SolarWinds, I'm now starting to feel slightly less worried about supply-chain attacks.
+Two years after first reading about SolarWinds, I'm now starting to feel slightly less worried about supply-chain attacks on the software I use in development.
 
 **[Tomcat](https://github.com/apache/tomcat/pull/566)**
 : Allow reproducible builds of all JDBC JAR files
@@ -59,7 +60,7 @@ Two years after first reading about SolarWinds, I'm now starting to feel slightl
 
 In December 2020, I learned of the [SolarWinds attack](https://www.linux.com/news/preventing-supply-chain-attacks-like-solarwinds/) and became increasingly worried about the software on my system.
 I started adding features that prevent or detect such attacks to each of the projects I use in my own software development.
-Those features include basic security measures, such as dependency verification, and longer-term goals, such as [verified reproducible builds](https://reproducible-builds.org/).
+Those features include basic security measures, such as dependency verification, and longer-term goals, such as verified [reproducible builds](https://reproducible-builds.org/).
 
 **[OpenJFX](https://github.com/openjdk/jfx/pull/437)** ⭐&#xFE0F;
 : Add Gradle dependency verification
@@ -145,7 +146,7 @@ I had been working on the feature in my spare time for years, so I was grateful 
 ### 2018
 
 I got started with Git and GitHub in July 2018 by fixing some typographical errors in the Standard Ebooks edition of [*Flatland*](https://standardebooks.org/ebooks/edwin-a-abbott/flatland), by Edwin A. Abbott.
-In October, I started to contribute in earnest by fixing an old pair of Java and JavaFX font bugs.
+In October, I started to contribute in earnest by fixing an old pair of font bugs in Java and JavaFX.
 
 **[OpenJDK](https://github.com/jgneff/openjdk-freetype)** ⭐&#xFE0F;
 : Need to set the FreeType LCD Filter to reduce fringing

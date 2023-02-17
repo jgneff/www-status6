@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sponsor John Neffenger
-description: Sponsor John Neffenger to design, build, and maintain open-source software.
+description: How to sponsor John Neffenger.
 ---
 
 # **♥**{:.heart} Sponsor Me
@@ -32,10 +32,10 @@ I provide three options for a sponsorship or donation:
 With your support, I can continue to work on the following projects:
 
 **OpenJDK and OpenJFX**
-: Publish each new release of OpenJDK and OpenJFX in the Snap Store.
+: Publish each new release and early-access build of the JDK and JavaFX in the Snap Store.
 
 **VOLANO Chat Server**
-: Update the server with the latest Java features and rewrite the clients for the modern Web.
+: Update the server with the latest Java features and rewrite its clients for the modern Web.
 
 **Programming Electronic Ink**
 : Document how to develop Java applications for e-paper with Ubuntu on the Kobo e-reader.

@@ -13,26 +13,31 @@ I'm John Neffenger, an independent software developer in Vancouver, British Colu
 My main open-source [contributions](contributions.html) are listed below and described in the sections that follow.
 
 **2022**
-: Created reproducible builds of the OpenJDK and OpenJFX projects.
+: Created strictly-confined packages of Apache Maven and Apache NetBeans.
 
 **2021**
-: Published the current releases of OpenJDK and OpenJFX in the Snap Store.
+: Published current releases and early-access builds of OpenJDK and OpenJFX.
 
 **2020**
-: Released the VOLANO chat server under an open-source license.
+: Released the VOLANO chat server under the GPLv3 open-source license.
 
 **2019**
 : Ported the JavaFX application framework to devices with e-paper displays.
 
 **2018**
-: Learned how to contribute to the OpenJDK project by fixing two font bugs.
+: Learned how to contribute to the OpenJDK project by fixing two old font bugs.
 
 ### Snap Store
 
 ![OpenJDK: Current JDK release & early-access builds](images/openjdk2.svg){:.right width="384" height="192"}
 In December 2020, I started publishing the current releases of OpenJDK and OpenJFX in the Snap Store when I saw that they were [not available][openjdk-question] in any current release of Ubuntu.
-I had been building both projects for years as part of my own testing, but the Snap packages let me document the process and create up-to-date builds for myself and anyone else who wanted them.
+I had been building both projects for years as part of my testing, but the Snap packages let me document the process and create up-to-date builds for myself and anyone else who wanted them.
 The Snap Store now has the current releases and early-access builds of [OpenJDK][openjdk-snap] and [OpenJFX][openjfx-snap] for Linux, built directly from their source code on GitHub.
+
+In June 2022, I also started publishing strictly-confined packages of [Apache Maven][maven-snap] and [Apache NetBeans][netbeans-snap].
+The packages are public, but unlisted, to avoid confusion with the official releases from Apache.
+They allow me to run my entire toolchain of Apache NetBeans, Apache Maven, and OpenJDK inside a strictly-confined container with limited access to my system.
+Such confinement is especially important for tools like Maven and NetBeans that download, install, and run third-party plugins, but it also helps protect my system from the dependencies they include during their builds.
 
 ### VOLANO Chat Server
 
@@ -66,10 +71,10 @@ I also published a [JavaFX application][epd-javafx] to test the new platform.
 ![Screenshot of Java font bug](images/font-bug-java-1x.png){:.right .darkmode width="320" height="60" srcset="images/font-bug-java-2x.png 2x"}
 For 10 years, each time I downloaded a new release of Java, I immediately checked whether the font bug had been fixed.
 And for 10 years, each time I checked, the bug was still there: color fringes so severe that it was impossible to use.
-I came to the conclusion that I needed to fix the problem myself or abandon Java altogether.
+I came to the conclusion that I needed to fix the problem myself or abandon the Java platform altogether.
 
 I created the repository [OpenJDK FreeType Font Fix][openjdk-freetype] to explain the long and convoluted history of the bug and provide a two-line fix.
-The fix is available in Java 12 or later and has been back-ported to the Java 8 and 11 Long Term Support releases.
+The fix is available in Java 12 or later and has been back-ported to the Java 8 and Java 11 Long Term Support releases.
 I am happily still using Java today.
 
 ### JavaFX Font Fix
@@ -87,8 +92,8 @@ The fix is available in JavaFX 12 or later.
 
 ## Typography
 
-I took on these projects to find out whether I could automate the production of well-formatted books in plain text, HTML, EPUB, Kindle MOBI, and several PDF paper sizes, all from a single source.
-The projects were a success thanks to the great open-source tools available in LaTeX, HeVeA, ImageMagick, Potrace, and Inkscape.
+I took on these projects to find out whether I could automate the production of well-formatted books in plain text, HTML, EPUB, MOBI, and several PDF paper sizes, all from a single source.
+The projects were a success thanks to the open-source tools available in LaTeX, HeVeA, ImageMagick, Potrace, and Inkscape.
 
 ### *Wild & Woolly*
 
@@ -105,6 +110,8 @@ Click the *Read* or *Free sample* button on the Google Play page to view a sampl
 [openjdk-question]: https://answers.launchpad.net/ubuntu/+source/openjdk-15/+question/693547
 [openjdk-snap]: https://snapcraft.io/openjdk
 [openjfx-snap]: https://snapcraft.io/openjfx
+[maven-snap]: https://snapcraft.io/strictly-maven
+[netbeans-snap]: https://snapcraft.io/strictly-netbeans
 
 [msjvm]: https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine
 [volano]: https://github.com/jgneff/volano

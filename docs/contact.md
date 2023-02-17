@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact John Neffenger
-description: Contact information for John Neffenger.
+description: How to contact John Neffenger.
 ---
 
 # Contact Me
@@ -22,4 +22,4 @@ John Neffenger &lt;[john@status6.com](mailto:john@status6.com)&gt;
 : My contributions to the Reproducible Builds project
 
 **[Launchpad](https://launchpad.net/~jgneff)**
-: My Snap packages and Ubuntu package bug reports
+: My Snap package builds and Ubuntu bug reports
