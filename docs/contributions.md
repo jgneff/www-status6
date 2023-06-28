@@ -7,34 +7,39 @@ description: John Neffenger's contributions to open-source software.
 # Contributions
 
 My contributions to open-source projects other than my own are listed below.
-Those that required more time and effort are marked with a star (⭐&#xFE0F;).
 A separate page lists my [security contributions](security.html) in more detail.
 
+Contributions that required significant time and effort are marked with a star (⭐&#xFE0F;).
+
 ## In Progress
+
+**[OpenJFX](https://github.com/openjdk/jfx/pull/1124)**
+: Let JavaFX be built on unknown architectures
+: Opened on 2023-05-03
 
 **[NetBeans](https://github.com/apache/netbeans/pull/4206)** ⭐&#xFE0F;
 : Build downloads fail due to response code 503
 : Opened on 2022-06-07
 
-**[OpenJFX](https://github.com/openjdk/jfx/pull/446)** ⭐&#xFE0F;
-: Enable reproducible builds with SOURCE_DATE_EPOCH
-: Opened on 2021-03-30
-
 ## Completed
 
 ### 2023
 
-Having created secure packages of my development tools in 2022, my goals this year are to finish the two long-running contributions shown in progress above and to work on my own open-source projects.
+Having created secure packages of my development tools in 2022, my goal this year is to create fully reproducible builds of my OpenJDK and OpenJFX Snap packages.
+
+**[OpenJFX](https://github.com/openjdk/jfx/pull/446)** ⭐&#xFE0F;
+: Enable reproducible builds with SOURCE_DATE_EPOCH
+: 141 added, 31 deleted on 2023-06-20
 
 **[NetBeans](https://github.com/apache/netbeans/pull/5372)**
 : Import local schema to avoid DNS lookup in build
-: 1 added, 1 deleted on 2023-01-07
+: 1 added, 1 deleted on 2023-01-27
 
 ### 2022
 
 I continued the security work I started in 2021 by making related contributions to the OpenJDK, NetBeans, and Tomcat projects.
 These changes allowed me to create strictly-confined Snap packages of my entire toolchain: [OpenJDK](https://github.com/jgneff/openjdk), [OpenJFX](https://github.com/jgneff/openjfx), [Maven](https://github.com/jgneff/strictly-maven), and [NetBeans](https://github.com/jgneff/strictly-netbeans).
-Two years after first reading about SolarWinds, I'm now starting to feel slightly less worried about supply-chain attacks on the software I use in development.
+Two years after first reading about SolarWinds, I'm beginning to feel slightly less worried about supply-chain attacks on the software that I use for my development work.
 
 **[Tomcat](https://github.com/apache/tomcat/pull/566)**
 : Allow reproducible builds of all JDBC JAR files
@@ -117,7 +122,7 @@ It took all of 2020 for me to complete the JavaFX project that I started in 2019
 ### 2019
 
 My efforts in 2018 to learn GitHub and the workings of the OpenJDK project were for one purpose: to add JavaFX support for e-paper displays in 2019.
-I had been working on the feature in my spare time for years, so I was grateful to find the people in the JavaFX project so helpful and welcoming.
+I had been working on the feature in my spare time for years, so I was grateful to find the members of the JavaFX project so helpful and welcoming.
 
 **[NetBeans Website](https://github.com/apache/netbeans-website/pull/427)**
 : Use KEYS for the link to KEYS

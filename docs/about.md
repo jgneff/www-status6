@@ -11,17 +11,15 @@ I'm an independent programmer, typographer, and system administrator.
 I write software for the Java platform, design books with the LaTeX typesetting system, and manage systems running the Ubuntu operating system.
 
 The path I took in learning programming languages was: *BASIC → Fortran → Pascal → COBOL → Series/1 EDL → Series/1 Assembler → Rexx → C → System/370 Assembler → C++ → Java*.
-The path I took in learning human languages was: *English → French → Italian → French*, although I could still use a few more lessons in French.
-
-## Experience
-
-I have worked as a software developer in 🇹🇷&nbsp;Türkiye, 🇺🇸&nbsp;the United States, 🇮🇹&nbsp;Italy, and 🇨🇦&nbsp;Canada.
+The path I took in learning human languages was: *English → French → Italian → French*, although I still could use a few more lessons in French.
 
 <picture>
 <source media="(prefers-color-scheme: light)" srcset="images/mypath-1x.png 1x, images/mypath-2x.png 2x">
 <source media="(prefers-color-scheme: dark)" srcset="images/mypath-1x-dark.png 1x, images/mypath-2x-dark.png 2x">
 <img src="images/mypath.svg" width="800" height="400" alt="World map with labels showing my path in learning programming languages">
 </picture>
+
+I have worked as a software developer in 🇹🇷&nbsp;Türkiye, 🇺🇸&nbsp;the United States, 🇮🇹&nbsp;Italy, and 🇨🇦&nbsp;Canada:
 
 **Bowling Green, Ohio**
 : My first experience writing software was during a summer session for high-school students at Bowling Green State University, where I learned how to program in BASIC.

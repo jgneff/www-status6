@@ -10,13 +10,16 @@ I'm John Neffenger, an independent software developer in Vancouver, British Colu
 
 ## Programming
 
-My main open-source [contributions](contributions.html) are listed below and described in the sections that follow.
+My main [contributions](contributions.html) are listed below and described in the sections that follow.
+
+**2023**
+: Helped enable reproducible builds of the Java Development Kit and JavaFX.
 
 **2022**
 : Created strictly-confined packages of Apache Maven and Apache NetBeans.
 
 **2021**
-: Published current releases and early-access builds of OpenJDK and OpenJFX.
+: Published current releases and early-access builds of Java and JavaFX.
 
 **2020**
 : Released the VOLANO chat server under the GPLv3 open-source license.
@@ -30,14 +33,13 @@ My main open-source [contributions](contributions.html) are listed below and des
 ### Snap Store
 
 ![OpenJDK: Current JDK release & early-access builds](images/openjdk2.svg){:.right width="384" height="192"}
-In December 2020, I started publishing the current releases of OpenJDK and OpenJFX in the Snap Store when I saw that they were [not available][openjdk-question] in any current release of Ubuntu.
-I had been building both projects for years as part of my testing, but the Snap packages let me document the process and create up-to-date builds for myself and anyone else who wanted them.
-The Snap Store now has the current releases and early-access builds of [OpenJDK][openjdk-snap] and [OpenJFX][openjfx-snap] for Linux, built directly from their source code on GitHub.
+In December 2020, I started publishing the current releases of [OpenJDK][openjdk-snap] (Java) and [OpenJFX][openjfx-snap] (JavaFX) when I noticed that they were [not available][openjdk-question] in any current release of Ubuntu.
+I had been building both projects for years as part of my testing, but the Snap packages allowed me to document the process and create up-to-date builds for myself and anyone else who wants them.
 
 In June 2022, I also started publishing strictly-confined packages of [Apache Maven][maven-snap] and [Apache NetBeans][netbeans-snap].
 The packages are public, but unlisted, to avoid confusion with the official releases from Apache.
 They allow me to run my entire toolchain of Apache NetBeans, Apache Maven, and OpenJDK inside a strictly-confined container with limited access to my system.
-Such confinement is especially important for tools like Maven and NetBeans that download, install, and run third-party plugins, but it also helps protect my system from the dependencies they include during their builds.
+Such confinement is especially important for tools like Maven and NetBeans that download, install, and run third-party plugins, and it also protects my system from the dependencies they include during their builds.
 
 ### VOLANO Chat Server
 
@@ -55,7 +57,7 @@ It was the first time I had seen [animation in electronic ink][dancer].
 After the conference, I was determined to reproduce the artwork on my own, but I soon learned how difficult that would be.
 The documentation was hard to find and provided only a C-language interface to the device driver.
 I wanted to use a cross-platform language and framework that would let me test my applications on a desktop computer and run them unmodified on the device.
-I preferred a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, but none of them supported embedded devices with e-paper displays.
+I was looking for a framework like Java and JavaFX, Dart and Flutter, or Python and Qt, but none of them supported embedded devices with e-paper displays.
 JavaFX, though, already had much of what I needed to make it work.
 
 So I added the support to JavaFX and contributed the code to the OpenJFX project.
@@ -87,25 +89,25 @@ By 2017, there were already two bug reports explaining the problem, but both of 
 By 2018, the bug had persisted for five years.
 If I wanted to open yet another bug report, it was going to require some compelling evidence---and probably a fix, too.
 
-I created [Issue #229][jfx-229] to provide both the evidence and the fix, and my [Pull Request #235][jfx-235] was merged into JavaFX the next day.
+I created [Issue #229][jfx-229] to provide both the evidence and the fix, and my [Pull Request #235][jfx-235] was merged into JavaFX in just one day.
 The fix is available in JavaFX 12 or later.
 
 ## Typography
 
-I took on these projects to find out whether I could automate the production of well-formatted books in plain text, HTML, EPUB, MOBI, and several PDF paper sizes, all from a single source.
+I took on these projects to see whether I could automate the production of well-formatted books in plain text, HTML, EPUB, MOBI, and several PDF paper sizes, all from a single source.
 The projects were a success thanks to the open-source tools available in LaTeX, HeVeA, ImageMagick, Potrace, and Inkscape.
 
 ### *Wild & Woolly*
 
 ![Wild & Woolly book cover](images/wild-and-woolly-1x.png){:.left width="135" height="192" srcset="images/wild-and-woolly-2x.png 2x"}
 I designed the e-book versions of [*Wild & Woolly: A Journal Keeper's E-book*][play-woolly], by Alfred DePew, and automated the production of PDF files in A4, A5, and A6 paper sizes.
-Click the *Read* or *Free sample* button on the Google Play page to view a sample of the work.
+Click the *Free sample* button on the Google Play page to view a sample of the work.
 
 ### *The Melancholy of Departure*
 
 ![The Melancholy of Departure book cover](images/melancholy-of-departure-1x.png){:.left width="135" height="192" srcset="images/melancholy-of-departure-2x.png 2x"}
 I designed the e-book versions of [*The Melancholy of Departure*][play-melancholy], by Alfred DePew, and automated the production of PDF, EPUB, and Kindle MOBI files.
-Click the *Read* or *Free sample* button on the Google Play page to view a sample of the work.
+Click the *Free sample* button on the Google Play page to view a sample of the work.
 
 [openjdk-question]: https://answers.launchpad.net/ubuntu/+source/openjdk-15/+question/693547
 [openjdk-snap]: https://snapcraft.io/openjdk

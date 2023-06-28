@@ -16,7 +16,7 @@ I provide three options for a sponsorship or donation:
   * Requires a GitHub account
 
 **[Liberapay](https://liberapay.com/jgneff/donate)**
-: is an open-source crowdfunding platform run by a non-profit organization.
+: an open-source crowdfunding platform run by a non-profit organization.
 
   * Weekly donations in U.S. dollars (USD), Canadian dollars (CAD), or euros (EUR)
   * Requires a Liberapay account
@@ -26,8 +26,6 @@ I provide three options for a sponsorship or donation:
 
   * Monthly or one-time donations in U.S. dollars (USD)
   * Requires a PayPal account only for recurring donations
-
-## Projects
 
 With your support, I can continue to work on the following projects:
 
