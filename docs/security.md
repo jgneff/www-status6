@@ -51,23 +51,29 @@ In March 2021, I got involved in the [Reproducible Builds](https://reproducible-
 I created a [new pull request](https://github.com/openjdk/jfx/pull/446) that was broader in scope and sought to enable reproducible builds for all JavaFX artifacts on all three platforms: Linux, macOS, and Windows.
 After more than two years of code reviews, cross-platform testing, patience, and persuasion, the pull request was approved by the project's lead reviewers in June 2023.
 
+The experience I gained working on the OpenJFX pull request allowed me to be the main reviewer of a [related enhancement](https://github.com/openjdk/jdk/pull/6481) to the `jar` and `jmod` tools of the Java Development Kit.
+
 During this time, I also found and fixed the [last remaining bug](https://bugs.openjdk.org/browse/JDK-8292892?jql=labels%3Dreproducible-build) that blocked reproducible builds of the Java Development Kit.
 The bug was [especially interesting](https://github.com/openjdk/jdk/pull/10070#issuecomment-1230888930) because, although its cause was unrelated to reproducible builds, it would have been practically impossible to find without them.
 
-Both contributions are shown in the table below:
+All three contributions are listed below.
+I reviewed the first pull request and authored the other two:
 
-| Project | Issue             | Fix          | Integrated | Description                                       |
-| ------- | ----------------- | ------------ | ---------- | ------------------------------------------------- |
-| OpenJDK | [JDK-8292892][c1] | [#10070][d1] | 2022-09-21 | Javadoc index descriptions are not deterministic  |
-| OpenJFX | [JDK-8264449][c2] | [#446][d2]   | 2023-06-20 | Enable reproducible builds with SOURCE_DATE_EPOCH |
+| Project | Issue             | Fix          | Integrated | Description                                                      |
+| ------- | ----------------- | ------------ | ---------- | ---------------------------------------------------------------- |
+| OpenJDK | [JDK-8276766][c1] | [#6481][d1]  | 2021-12-11 | Enable jar and jmod to produce deterministic timestamped content |
+| OpenJDK | [JDK-8292892][c2] | [#10070][d2] | 2022-09-21 | Javadoc index descriptions are not deterministic                 |
+| OpenJFX | [JDK-8264449][c3] | [#446][d3]   | 2023-06-20 | Enable reproducible builds with SOURCE_DATE_EPOCH                |
 
 These changes allow anyone to publish reproducible builds of the JDK and JavaFX.
 
-[c1]: https://bugs.openjdk.org/browse/JDK-8292892
-[c2]: https://bugs.openjdk.org/browse/JDK-8264449
+[c1]: https://bugs.openjdk.org/browse/JDK-8276766
+[c2]: https://bugs.openjdk.org/browse/JDK-8292892
+[c3]: https://bugs.openjdk.org/browse/JDK-8264449
 
-[d1]: https://github.com/openjdk/jdk/pull/10070
-[d2]: https://github.com/openjdk/jfx/pull/446
+[d1]: https://github.com/openjdk/jdk/pull/6481
+[d2]: https://github.com/openjdk/jdk/pull/10070
+[d3]: https://github.com/openjdk/jfx/pull/446
 
 ## Verifiable Builds
 
