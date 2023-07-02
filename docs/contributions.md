@@ -8,8 +8,7 @@ description: John Neffenger's contributions to open-source software.
 
 My contributions to open-source projects other than my own are listed below.
 A separate page lists my [security contributions](security.html) in more detail.
-
-Contributions that required significant time and effort are marked with a star (⭐&#xFE0F;).
+Contributions that required significant time and effort are marked with a star (★).
 
 ## In Progress
 
@@ -17,7 +16,7 @@ Contributions that required significant time and effort are marked with a star (
 : Let JavaFX be built on unknown architectures
 : Opened on 2023-05-03
 
-**[NetBeans](https://github.com/apache/netbeans/pull/4206)** ⭐&#xFE0F;
+**[NetBeans](https://github.com/apache/netbeans/pull/4206)** ★
 : Build downloads fail due to response code 503
 : Opened on 2022-06-07
 
@@ -27,7 +26,7 @@ Contributions that required significant time and effort are marked with a star (
 
 Having created secure packages of my development tools in 2022, my goal this year is to create fully reproducible builds of my OpenJDK and OpenJFX Snap packages.
 
-**[OpenJFX](https://github.com/openjdk/jfx/pull/446)** ⭐&#xFE0F;
+**[OpenJFX](https://github.com/openjdk/jfx/pull/446)** ★
 : Enable reproducible builds with SOURCE_DATE_EPOCH
 : 141 added, 31 deleted on 2023-06-20
 
@@ -49,7 +48,7 @@ Two years after first reading about SolarWinds, I'm beginning to feel slightly l
 : Import local schema to avoid DNS lookup in build
 : 272 added, 66 deleted on 2022-11-08
 
-**[OpenJDK](https://github.com/openjdk/jdk/pull/10070)** ⭐&#xFE0F;
+**[OpenJDK](https://github.com/openjdk/jdk/pull/10070)** ★
 : Javadoc index descriptions are not deterministic
 : 320 added, 2 deleted on 2022-09-21
 
@@ -67,7 +66,7 @@ In December 2020, I learned of the [SolarWinds attack](https://www.linux.com/new
 I started adding features that prevent or detect such attacks to each of the projects I use in my own software development.
 Those features include basic security measures, such as dependency verification, and longer-term goals, such as verified [reproducible builds](https://reproducible-builds.org/).
 
-**[OpenJFX](https://github.com/openjdk/jfx/pull/437)** ⭐&#xFE0F;
+**[OpenJFX](https://github.com/openjdk/jfx/pull/437)** ★
 : Add Gradle dependency verification
 : 321 added, 12 deleted on 2021-05-03
 
@@ -103,7 +102,7 @@ It took all of 2020 for me to complete the JavaFX project that I started in 2019
 : Create a daemon thread for MonocleTimer
 : 7 added, 1 deleted on 2020-07-21
 
-**[OpenJFX](https://github.com/openjdk/jfx/pull/255)** ⭐&#xFE0F;
+**[OpenJFX](https://github.com/openjdk/jfx/pull/255)** ★
 : QuantumRenderer modifies buffer in use by JavaFX Application Thread
 : 26 added, 6 deleted on 2020-07-10
 
@@ -111,7 +110,7 @@ It took all of 2020 for me to complete the JavaFX project that I started in 2019
 : Get two bytes for the Linux input event type, not four
 : 1 added, 1 deleted on 2020-07-02
 
-**[OpenJFX](https://github.com/openjdk/jfx/pull/60)** ⭐&#xFE0F;
+**[OpenJFX](https://github.com/openjdk/jfx/pull/60)** ★
 : Add support for e-paper displays on i.MX6 devices
 : 236 added, 45 deleted on 2020-04-29
 
@@ -144,7 +143,7 @@ I had been working on the feature in my spare time for years, so I was grateful 
 : Add Client VM to builds for Linux arm32 platform
 : 1 added, 1 deleted on 2019-05-11
 
-**[OpenJFX](https://github.com/javafxports/openjdk-jfx/pull/369)** ⭐&#xFE0F;
+**[OpenJFX](https://github.com/javafxports/openjdk-jfx/pull/369)** ★
 : Add support for e-paper displays
 : 3,588 added, 2 deleted on 2019-04-16
 
@@ -153,7 +152,7 @@ I had been working on the feature in my spare time for years, so I was grateful 
 I got started with Git and GitHub in July 2018 by fixing some typographical errors in the Standard Ebooks edition of [*Flatland*](https://standardebooks.org/ebooks/edwin-a-abbott/flatland), by Edwin A. Abbott.
 In October, I started to contribute in earnest by fixing an old pair of font bugs in Java and JavaFX.
 
-**[OpenJDK](https://github.com/jgneff/openjdk-freetype)** ⭐&#xFE0F;
+**[OpenJDK](https://github.com/jgneff/openjdk-freetype)** ★
 : Need to set the FreeType LCD Filter to reduce fringing
 : 3 added, 0 deleted on 2018-10-16 ([commit](https://github.com/openjdk/jdk/commit/0ed2c6c2957269d1342610b6d0382a2f8052f167))
 
