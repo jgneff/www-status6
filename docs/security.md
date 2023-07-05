@@ -29,7 +29,7 @@ OpenJFX is the open-source project that develops JavaFX.
 It uses a complex build system based on Gradle to build JavaFX and its native libraries on Linux, macOS, and Windows.
 My first goal was to add the three security measures recommended by the Gradle team for any project using Gradle:
 
-| Project | Issue                       | Fix        | Integrated             | Description                            |
+| Project | Issue                       | Fix        | Integrated             | Summary                                |
 | ------- | --------------------------- | ---------- | ---------------------- | -------------------------------------- |
 | OpenJFX | [JDK-8262236][a1]{:.nowrap} | [#411][b1] | *2021-02-23*{:.nowrap} | Configure Gradle checksum verification |
 | OpenJFX | [JDK-8263204][a2]{:.nowrap} | [#419][b2] | *2021-03-09*{:.nowrap} | Add Gradle Wrapper Validation Action   |
@@ -59,7 +59,7 @@ The bug was [especially interesting](https://github.com/openjdk/jdk/pull/10070#i
 All three contributions are listed below.
 I reviewed the first pull request and authored the other two:
 
-| Project | Issue                       | Fix          | Integrated             | Description                                                      |
+| Project | Issue                       | Fix          | Integrated             | Summary                                                          |
 | ------- | --------------------------- | ------------ | ---------------------- | ---------------------------------------------------------------- |
 | OpenJDK | [JDK-8276766][c1]{:.nowrap} | [#6481][d1]  | *2021-12-11*{:.nowrap} | Enable jar and jmod to produce deterministic timestamped content |
 | OpenJDK | [JDK-8292892][c2]{:.nowrap} | [#10070][d2] | *2022-09-21*{:.nowrap} | Javadoc index descriptions are not deterministic                 |
@@ -85,14 +85,14 @@ Snap packages have the additional security benefit of running in [complete isola
 I created Snap packages of the JDK and JavaFX with the goal of providing the most open and transparent builds available and allowing developers to verify exactly where and how each package was built.
 See the [Verify](https://github.com/jgneff/openjdk#verify) section of the README files for details.
 
-| Project | Source        | Created                | Description                                    |
+| Project | Source        | Created                | Summary                                        |
 | ------- | ------------- | ---------------------- | ---------------------------------------------- |
 | OpenJFX | [openjfx][e1] | *2020-11-23*{:.nowrap} | Current JavaFX release and early-access builds |
 | OpenJDK | [openjdk][e2] | *2020-12-02*{:.nowrap} | Current JDK release and early-access builds    |
 
 I also created strictly-confined packages of Apache NetBeans and Apache Maven:
 
-| Project  | Source                  | Created                | Description                                  |
+| Project  | Source                  | Created                | Summary                                      |
 | -------- | ----------------------- | ---------------------- | -------------------------------------------- |
 | NetBeans | [strictly-netbeans][f1] | *2021-10-16*{:.nowrap} | Apache NetBeans® in a strictly-confined snap |
 | Maven    | [strictly-maven][f2]    | *2021-10-19*{:.nowrap} | Apache Maven™ in a strictly-confined snap    |
