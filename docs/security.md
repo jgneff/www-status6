@@ -85,17 +85,17 @@ Snap packages have the additional security benefit of running in [complete isola
 I created Snap packages of the JDK and JavaFX with the goal of providing the most open and transparent builds available and allowing developers to verify exactly where and how each package was built.
 See the [Verify](https://github.com/jgneff/openjdk#verify) section of the README files for details.
 
-| Project | Source        | Created                | Summary                                        |
+| Project | Source        | Published              | Summary                                        |
 | ------- | ------------- | ---------------------- | ---------------------------------------------- |
-| OpenJFX | [openjfx][e1] | *2020-11-23*{:.nowrap} | Current JavaFX release and early-access builds |
-| OpenJDK | [openjdk][e2] | *2020-12-02*{:.nowrap} | Current JDK release and early-access builds    |
+| OpenJFX | [openjfx][e1] | *2020-11-25*{:.nowrap} | Current JavaFX release and early-access builds |
+| OpenJDK | [openjdk][e2] | *2020-12-03*{:.nowrap} | Current JDK release and early-access builds    |
 
 I also created strictly-confined packages of Apache NetBeans and Apache Maven:
 
-| Project  | Source                  | Created                | Summary                                      |
+| Project  | Source                  | Published              | Summary                                      |
 | -------- | ----------------------- | ---------------------- | -------------------------------------------- |
-| NetBeans | [strictly-netbeans][f1] | *2021-10-16*{:.nowrap} | Apache NetBeans® in a strictly-confined snap |
-| Maven    | [strictly-maven][f2]    | *2021-10-19*{:.nowrap} | Apache Maven™ in a strictly-confined snap    |
+| NetBeans | [strictly-netbeans][f1] | *2022-06-01*{:.nowrap} | Apache NetBeans® in a strictly-confined snap |
+| Maven    | [strictly-maven][f2]    | *2022-06-01*{:.nowrap} | Apache Maven™ in a strictly-confined snap    |
 
 These packages allow developers on Linux to install, verify, and run a complete set of development tools that includes Apache NetBeans, Apache Maven, and the Java Development Kit, all within a strictly-confined environment on their system.
 
