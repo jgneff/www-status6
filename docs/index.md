@@ -19,7 +19,7 @@ My main [contributions](contributions.html) are listed below and described in th
 : Created strictly-confined packages of Apache Maven and Apache NetBeans.
 
 **2021**
-: Published current releases and early-access builds of Java and JavaFX.
+: Published current releases and early-access builds of the JDK and JavaFX.
 
 **2020**
 : Released the VOLANO chat server under the GPLv3 open-source license.
@@ -28,7 +28,7 @@ My main [contributions](contributions.html) are listed below and described in th
 : Ported the JavaFX application framework to devices with e-paper displays.
 
 **2018**
-: Learned how to contribute to the OpenJDK project by fixing two old font bugs.
+: Learned how to contribute to the OpenJDK community by fixing two font bugs.
 
 ### Snap Store
 
@@ -38,14 +38,14 @@ I had been building both projects for years as part of my testing, but the Snap 
 
 In June 2022, I also started publishing strictly-confined packages of [Apache Maven][maven-snap] and [Apache NetBeans][netbeans-snap].
 The packages are public, but unlisted, to avoid confusion with the official releases from Apache.
-They allow me to run my entire toolchain of Apache NetBeans, Apache Maven, and OpenJDK inside a strictly-confined container with limited access to my system.
-Such confinement is especially important for tools like Maven and NetBeans that download, install, and run third-party plugins, and it also protects my system from the dependencies they include during their builds.
+They allow me to run my entire toolchain, consisting of the Java Development Kit, Apache Maven, and Apache NetBeans, inside a strictly-confined container with limited access to my system.
+Such confinement is especially important for tools like Maven and NetBeans that download, install, and run third-party plugins, and it also protects my system from the dependencies they include in their builds.
 
 ### VOLANO Chat Server
 
 ![VOLANO speech-balloon logo](images/volano.svg){:.right width="320" height="192"}
 I wrote much of the VOLANO chat server and applets in the spring of 1996.
-In the decade that followed, the software became frozen in time at Java version 1.1 mostly due to the dominance of the [Microsoft Java Virtual Machine][msjvm] in Internet Explorer.
+In the decade that followed, the software became frozen in time at Java version 1.1 mostly due to the dominance of Internet Explorer and its [Microsoft Java Virtual Machine][msjvm].
 In the decade after that, it remained frozen in time mostly due to me.
 Now, more than two decades after launching the proprietary software, I hope to breathe some life back into it as an [open-source project][volano].
 

@@ -10,6 +10,13 @@ My contributions to open-source projects other than my own are listed below.
 A separate page lists my [security contributions](security.html) in more detail.
 Contributions that required significant time and effort are marked with a star (★).
 
+**A note on names:**
+The [JDK Project](https://openjdk.org/projects/jdk/) develops the reference implementation of the Java Platform, Standard Edition.
+This implementation is released as an [OpenJDK Build](https://jdk.java.net/) of the Java Development Kit, or "the JDK" for short, in packages with *openjdk* in their names.
+The [OpenJFX Project](https://openjdk.org/projects/openjfx/) develops the JavaFX application framework.
+JavaFX is released as an SDK and a set of JMOD archives in packages with *openjfx* in their names.
+The [OpenJDK Community](https://openjdk.org/) includes both of these projects and others related to the Java Platform.
+
 ## In Progress
 
 **[OpenJFX](https://github.com/openjdk/jfx/pull/1124)**
@@ -24,7 +31,7 @@ Contributions that required significant time and effort are marked with a star (
 
 ### 2023
 
-Having created secure packages of my development tools in 2022, my goal this year is to create fully reproducible builds of my OpenJDK and OpenJFX Snap packages.
+Having created secure packages of my development tools in 2022, one of my goals this year is to create fully reproducible builds of the [OpenJDK](https://github.com/jgneff/openjdk) and [OpenJFX](https://github.com/jgneff/openjfx) packages that I publish.
 
 **[OpenJFX](https://github.com/openjdk/jfx/pull/446)** ★
 : Enable reproducible builds with SOURCE_DATE_EPOCH
@@ -36,8 +43,8 @@ Having created secure packages of my development tools in 2022, my goal this yea
 
 ### 2022
 
-I continued the security work I started in 2021 by making related contributions to the OpenJDK, NetBeans, and Tomcat projects.
-These changes allowed me to create strictly-confined Snap packages of my entire toolchain: [OpenJDK](https://github.com/jgneff/openjdk), [OpenJFX](https://github.com/jgneff/openjfx), [Maven](https://github.com/jgneff/strictly-maven), and [NetBeans](https://github.com/jgneff/strictly-netbeans).
+I continued the security work I started in 2021 by making related contributions to the JDK, Apache NetBeans, and Apache Tomcat projects.
+These changes allowed me to create strictly-confined packages of my entire development environment: [OpenJDK](https://github.com/jgneff/openjdk), [Maven](https://github.com/jgneff/strictly-maven), and [NetBeans](https://github.com/jgneff/strictly-netbeans).
 Two years after first reading about SolarWinds, I'm beginning to feel slightly less worried about supply-chain attacks on the software that I use for my development work.
 
 **[Tomcat](https://github.com/apache/tomcat/pull/566)**
@@ -48,7 +55,7 @@ Two years after first reading about SolarWinds, I'm beginning to feel slightly l
 : Import local schema to avoid DNS lookup in build
 : 272 added, 66 deleted on 2022-11-08
 
-**[OpenJDK](https://github.com/openjdk/jdk/pull/10070)** ★
+**[JDK](https://github.com/openjdk/jdk/pull/10070)** ★
 : Javadoc index descriptions are not deterministic
 : 320 added, 2 deleted on 2022-09-21
 
@@ -56,7 +63,7 @@ Two years after first reading about SolarWinds, I'm beginning to feel slightly l
 : Save cause of download error for BuildException
 : 2 added, 1 deleted on 2022-03-26
 
-**[SPDX](https://github.com/spdx/LicenseListPublisher/pull/128)**
+**[Software Package Data Exchange](https://github.com/spdx/LicenseListPublisher/pull/128)**
 : Clarify that the license identifier is deprecated
 : 1 added, 1 deleted on 2022-01-04
 
@@ -114,14 +121,14 @@ It took all of 2020 for me to complete the JavaFX project that I started in 2019
 : Add support for e-paper displays on i.MX6 devices
 : 236 added, 45 deleted on 2020-04-29
 
-**[GitHub](https://github.com/github/archive-program/pull/16)**
+**[GitHub Archive Program](https://github.com/github/archive-program/pull/16)**
 : Change .pdf file type to Portable Document Format
 : 1 added, 1 deleted on 2020-02-03
 
 ### 2019
 
-My efforts in 2018 to learn GitHub and the workings of the OpenJDK project were for one purpose: to add JavaFX support for e-paper displays in 2019.
-I had been working on the feature in my spare time for years, so I was grateful to find the members of the JavaFX project so helpful and welcoming.
+My efforts in 2018 to learn GitHub and the workings of the OpenJDK community were for one purpose: to add JavaFX support for e-paper displays in 2019.
+I had been working on the feature in my spare time for years, so I was grateful to find the members of the OpenJFX project so helpful and welcoming.
 
 **[NetBeans Website](https://github.com/apache/netbeans-website/pull/427)**
 : Use KEYS for the link to KEYS
@@ -150,9 +157,9 @@ I had been working on the feature in my spare time for years, so I was grateful 
 ### 2018
 
 I got started with Git and GitHub in July 2018 by fixing some typographical errors in the Standard Ebooks edition of [*Flatland*](https://standardebooks.org/ebooks/edwin-a-abbott/flatland), by Edwin A. Abbott.
-In October, I started to contribute in earnest by fixing an old pair of font bugs in Java and JavaFX.
+In October, I started to contribute in earnest by fixing an old pair of font bugs in the JDK and JavaFX.
 
-**[OpenJDK](https://github.com/jgneff/openjdk-freetype)** ★
+**[JDK](https://github.com/jgneff/openjdk-freetype)** ★
 : Need to set the FreeType LCD Filter to reduce fringing
 : 3 added, 0 deleted on 2018-10-16 ([commit](https://github.com/openjdk/jdk/commit/0ed2c6c2957269d1342610b6d0382a2f8052f167))
 

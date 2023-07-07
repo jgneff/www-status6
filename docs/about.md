@@ -46,5 +46,5 @@ I completed courses at Stanford University in numerical analysis and in UNIX and
 I learned Java by writing the VOLANO chat server, a proprietary software package licensed to customers in 50 countries around the world.
 
 **Vancouver, British Columbia**
-: I now work full time on open-source software and contribute to the OpenJDK, OpenJFX, Apache NetBeans, and Reproducible Builds projects.
+: I now work full time on open-source software and contribute to the JDK, OpenJFX, Apache NetBeans, and Reproducible Builds projects.
 I am a member of the OpenJDK Organization and an OpenJFX Committer.
