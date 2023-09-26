@@ -12,16 +12,12 @@ Contributions that required significant time and effort are marked with a star (
 
 **A note on names:**
 The [JDK Project](https://openjdk.org/projects/jdk/) develops the reference implementation of the Java Platform, Standard Edition.
-This implementation is released as an [OpenJDK Build](https://jdk.java.net/) of the Java Development Kit, or "the JDK" for short, in packages with *openjdk* in their names.
+This implementation is released as an [OpenJDK Build](https://jdk.java.net/) of the Java Development Kit, or the JDK for short, in packages with "openjdk" in their names.
 The [OpenJFX Project](https://openjdk.org/projects/openjfx/) develops the JavaFX application framework.
-JavaFX is released as an SDK and a set of JMOD archives in packages with *openjfx* in their names.
+JavaFX is released as a Software Development Kit in packages with "openjfx" in their names.
 The [OpenJDK Community](https://openjdk.org/) includes both of these projects and others related to the Java Platform.
 
 ## In Progress
-
-**[OpenJFX](https://github.com/openjdk/jfx/pull/1124)**
-: Let JavaFX be built on unknown architectures
-: Opened on 2023-05-03
 
 **[NetBeans](https://github.com/apache/netbeans/pull/4206)** ★
 : Build downloads fail due to response code 503
@@ -32,6 +28,10 @@ The [OpenJDK Community](https://openjdk.org/) includes both of these projects an
 ### 2023
 
 Having created secure packages of my development tools in 2022, one of my goals this year is to create fully reproducible builds of the [OpenJDK](https://github.com/jgneff/openjdk) and [OpenJFX](https://github.com/jgneff/openjfx) packages that I publish.
+
+**[OpenJFX](https://github.com/openjdk/jfx/pull/1124)**
+: Let JavaFX be built on unknown architectures
+: 9 added, 4 deleted on 2023-08-11
 
 **[OpenJFX](https://github.com/openjdk/jfx/pull/446)** ★
 : Enable reproducible builds with SOURCE_DATE_EPOCH
