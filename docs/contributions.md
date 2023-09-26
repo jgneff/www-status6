@@ -11,11 +11,9 @@ A separate page lists my [security contributions](security.html) in more detail.
 Contributions that required significant time and effort are marked with a star (★).
 
 > **A note on names:**
-The [JDK Project](https://openjdk.org/projects/jdk/) develops the reference implementation of the Java Platform, Standard Edition.
-This implementation is released as an [OpenJDK Build](https://jdk.java.net/) of the Java Development Kit, or the JDK for short, in packages with "openjdk" in their names.
-The [OpenJFX Project](https://openjdk.org/projects/openjfx/) develops the JavaFX application framework.
-JavaFX is released as a Software Development Kit in packages with "openjfx" in their names.
-The [OpenJDK Community](https://openjdk.org/) includes both of these projects and others related to the Java Platform.
+The [JDK Project](https://openjdk.org/projects/jdk/) develops the reference implementation of the Java Platform, Standard Edition, which is released as an [OpenJDK Build](https://jdk.java.net/).
+The [OpenJFX Project](https://openjdk.org/projects/openjfx/) develops the JavaFX cross-platform application framework, which is released as a Software Development Kit and a set of Java module archives.
+The [OpenJDK Community](https://openjdk.org/) includes both of these projects and many others related to the Java Platform.
 
 ## In Progress
 
