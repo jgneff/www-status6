@@ -10,7 +10,7 @@ My contributions to open-source projects other than my own are listed below.
 A separate page lists my [security contributions](security.html) in more detail.
 Contributions that required significant time and effort are marked with a star (★).
 
-**A note on names:**
+> **A note on names:**
 The [JDK Project](https://openjdk.org/projects/jdk/) develops the reference implementation of the Java Platform, Standard Edition.
 This implementation is released as an [OpenJDK Build](https://jdk.java.net/) of the Java Development Kit, or the JDK for short, in packages with "openjdk" in their names.
 The [OpenJFX Project](https://openjdk.org/projects/openjfx/) develops the JavaFX application framework.
