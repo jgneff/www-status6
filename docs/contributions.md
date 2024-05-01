@@ -27,6 +27,10 @@ The [OpenJDK Community](https://openjdk.org/) includes both of these projects an
 
 Having created secure packages of my development tools in 2022, one of my goals this year is to create fully reproducible builds of the [OpenJDK](https://github.com/jgneff/openjdk) and [OpenJFX](https://github.com/jgneff/openjfx) packages that I publish.
 
+**[OpenJFX](https://github.com/openjdk/jfx/pull/1253)**
+: JavaFX runtime version is wrong at runtime
+: 78 added, 51 deleted on 2023-10-14
+
 **[OpenJFX](https://github.com/openjdk/jfx/pull/1124)**
 : Let JavaFX be built on unknown architectures
 : 9 added, 4 deleted on 2023-08-11

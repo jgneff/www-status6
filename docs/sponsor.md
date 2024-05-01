@@ -21,12 +21,6 @@ I provide three options for a sponsorship or donation:
   * Weekly donations in U.S. dollars (USD), Canadian dollars (CAD), or euros (EUR)
   * Requires a Liberapay account
 
-**[PayPal](https://www.paypal.com/donate?hosted_button_id=TLPD5EPWLSM5G)**
-: allows for donations without a credit card.
-
-  * Monthly or one-time donations in U.S. dollars (USD)
-  * Requires a PayPal account only for recurring donations
-
 With your support, I can continue to work on the following projects:
 
 **OpenJDK and OpenJFX**
